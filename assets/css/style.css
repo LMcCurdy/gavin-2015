@@ -1,0 +1,356 @@
+/*********************************************************************************************
+
+1.  Default / for Grid 1200px             
+2.  960px 
+3.  720px
+4.  lt 720px 
+
+**********************************************************************************************/
+
+/* 
+Urnge: #f5821f
+Azure: #01b3e3
+dGrey: #888182
+lGrey: #d4cbcd
+ */
+
+html { box-sizing: border-box; -webkit-font-smoothing: antialiased; }
+*, *:before, *:after { box-sizing: inherit; }
+img { box-sizing: content-box; }
+
+img.scale, img.responsive {
+	max-width: 100%;
+	height: auto;
+}
+
+ul { list-style-type: none; padding: 0; }
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16 {
+	display: inline;
+	float: left;
+}
+
+.grid-12 { width: 100% }
+.grid-9 { width: 75% }
+.grid-8 { width: 66.666% }
+.grid-6 { width: 50% }
+.grid-4 { width: 33.333% }
+.grid-3 { width: 25% }
+
+hr { border: none; outline: none; margin: 0 auto; }
+
+/********************************************************************************************* 
+
+1.  Default / for Grid 1200px             
+
+*********************************************************************************************/  
+
+@font-face { font-family: 'Century Gothic'; 
+src: 	url('../font/century_gothic.eot'); 
+src: 	url('../font/century_gothic.eot?#iefix') format('embedded-opentype'), 
+		url('../font/century_gothic.svg#Century Gothic') format('svg'), 
+		url('../font/century_gothic.woff') format('woff'), 
+		url('../font/century_gothic.ttf') format('truetype'); 
+font-weight: normal; 
+font-style: normal;
+}
+
+@font-face { font-family: 'Century Gothic Bold'; 
+src: 	url('../font/century_gothic_bold.eot'); 
+src: 	url('../font/century_gothic_bold.eot?#iefix') format('embedded-opentype'), 
+		url('../font/century_gothic_bold.svg#Century Gothic Bold') format('svg'), 
+		url('../font/century_gothic_bold.woff') format('woff'), 
+		url('../font/century_gothic_bold.ttf') format('truetype'); 
+font-weight: normal; 
+font-style: normal;
+}
+
+body { font-family: 'Century Gothic', sans-serif; }
+
+a:link,
+a:visited { text-decoration: none; color: #f5821f; }
+a:hover,
+a:active { }
+
+a.button { text-transform: uppercase; font-family: 'Century Gothic Bold'; font-size: 10px; padding: 3px 16px; border: 2px solid #f5821f; }
+
+header { padding-bottom:16px }
+	
+	#topnav { text-align: right; height: 42px; padding: 10px 30px; cursor: default; position: relative; z-index: 100; }
+	#topnav a.button { border-color: #888182; color: #888182; margin-right: 16px; }
+	#topnav a.button:hover { background-color: #888182; color: #fff; }
+	#topnav i {
+		width: 22px; height: 22px; 
+		margin-left: 2px;
+		border-radius: 11px; border: 1px solid #f5821f; 
+		text-align: center; line-height: 20px; font-size: 12px;
+	}
+	#topnav a:hover i { color: #fff; background-color: #f5821f; }
+	
+	header h1 { font-size: 27px; letter-spacing: 2px; text-transform: uppercase; color: #d4cbcd; padding-left: 30px; margin-top: 0; }
+	header h1 em { font-style: normal; font-size: 72px; color: #888182; text-transform: lowercase; letter-spacing: normal; }
+	header h1 sup { font-size: 11px; letter-spacing: normal; vertical-align: 27px; margin-right: -16px; }
+	
+	nav ul { margin: 56px 30px 0 0; float:right; }
+	nav ul li { float: left; margin-left: 32px; }
+	nav ul li:first-child { margin-left: 0; }
+	nav ul li a { text-transform: uppercase; font-size: 14px; font-family: 'Century Gothic Bold'; }
+	nav ul li a:hover { color: #888182; }
+
+#video { position: relative; }
+
+#video div { position: absolute; text-align: center; top: 20%; z-index: 110; }
+
+#video h2 {
+	display: inline-block;
+	text-transform: uppercase; font-size: 38px; line-height: 60px;
+	font-family: 'Century Gothic Bold';
+	color: #fff; background-color: rgba(0,179,227,.5);
+	height: 64px; margin: 40px 0;  padding: 0 18px; 
+}
+
+	#video h2 br { display: none; }
+
+	#video a.pause { position: absolute; top: 20px; left: 20px; z-index: 500; }
+	#video i {
+		width: 42px; height: 42px; 
+		color: #fff;
+		border-radius: 21px; border: 3px solid #fff; 
+		text-align: center; line-height: 36px; font-size: 16px;
+	}
+	#video a.pause:hover i { color: #ddd; border-color: #ddd; }
+	
+div#driving-action {
+	margin: 6px 0 60px 0;
+	border-top: 4px solid #d4cbcd;
+	position: relative;
+	text-align: center;
+	z-index: 550;
+}
+
+	div.halfcircle {
+		height: 70px;
+		width: 140px;
+		margin: -10px auto 0 auto;
+		border-radius: 0 0 140px 140px;
+		-moz-border-radius: 0 0 140px 140px;
+		-webkit-border-radius: 0 0 140px 140px;
+		background: #fff;
+	}
+	div.circle {
+		height: 120px;
+		width: 120px;
+		margin: -130px auto 0 auto;
+		border-radius: 120px;
+		-moz-border-radius: 120px;
+		-webkit-border-radius: 120px;
+		background: #f5821f;
+		text-align: center;
+		position: relative;
+	}
+	div.circle i {
+		color: #fff;
+		font-size: 60px;
+		position: relative;
+		top: 25%;
+	}
+	div#driving-action h2,
+	div#driving-action hr,
+	div#driving-action p,
+	div#driving-action a.button {
+		opacity: 0;
+	}
+	div#driving-action h2 {
+		font-size: 24px;
+		color: #01b3e3;
+		text-transform: uppercase;
+		margin-top: 68px;
+	}
+	div#driving-action h2 span {
+		font-size: 82px;
+		display: block;
+		color: #f5821f;
+	}
+	div#driving-action hr {
+		margin-top: 24px;
+		color: #d4cbcd; background-color: #d4cbcd;
+		width: 260px; height: 8px;
+	}
+	div#driving-action p {
+		font-size: 30px;
+		padding: 0 130px;
+		color: #888182;
+	}
+	
+	div#ll-button {
+		margin: 0 auto;
+		margin-bottom: -82px;
+		width: 294px;
+		height: 80px;
+	}
+	
+	div#driving-action a.button { font-size: 23px; padding: 24px 0; display: inline-block; border: 2px solid transparent; width: 294px; height: 80px; }
+	div#driving-action a.button:hover { background-color: #888182; color: #fff; }
+	
+	
+div#blocks { width: 100%; max-width: 1200px; margin: 0 auto; }
+	@media only screen and (min-width: 800px) and (max-width: 1199px) { div#blocks { max-width: 800px; } }
+	@media only screen and (min-width: 400px) and (max-width: 799px) { div#blocks { max-width: 400px; } }
+
+div#blocks a > div { height: 400px; width: 400px; float: left; background-repeat: no-repeat; background-size: contain; text-align: center; display: table; position: relative; }
+div#blocks div div { color: #fff; font-size: 40px; font-family: 'Century Gothic Bold'; display: table-cell; vertical-align: middle; }
+
+div#blocks hr { height: 6px; width: 200px; color: #fff; background-color: #fff; margin-bottom: 12px; } 
+div#blocks p { margin: 0; text-transform: uppercase; }
+div#blocks span { display: none; }
+	@media only screen and (max-width: 400px) { 
+		div#blocks a > div { width: 100%; height: 0; padding-top: 100%; float: none; display: block; } 
+		div#blocks div div { display: block; margin: -55% 0 0 0; }
+	}
+
+div#martins { background-image: url('../img/martins.jpg'); background-color: #d22427; }		
+div#trespa { background-image: url('../img/trespa.jpg'); background-color: #fbda19; }		
+div#kimmans { background-image: url('../img/kimmans.jpg'); background-color: #f89322; }		
+		
+div.block { background: url('../img/block.jpg') no-repeat; }		
+
+div#blocks a:hover > div { background-image: none; text-align: left; }
+div#blocks a:hover > div div { vertical-align: top; padding-left: 36px; padding-right: 36px; }
+div#blocks a:hover p { font-size: 14px; position: absolute; left: 36px; top: 36px; }
+div#blocks a:hover span { display: block; }
+div#blocks a:hover hr { width: 100%; margin-top: 70px; }
+
+/********************************************************************************************* 
+
+2.  960px 
+
+*********************************************************************************************/  
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	#video h2 { font-size: 30px; line-height: 48px; height: 51px; margin: 20px 0; padding: 0 14px; }
+	div#driving-action p { padding: 0 60px; }
+}
+	
+
+/********************************************************************************************* 
+
+3.  720px 
+
+*********************************************************************************************/ 
+
+@media only screen and (min-width: 720px) and (max-width: 959px) {
+
+ 	header .grid-6 { width: 100%; }
+		header h1 { margin-top: -14px; }
+		nav ul { margin: 0 30px 0 0; }
+		nav ul li { margin-left: 24px; }
+		
+	#video h2 { font-size: 22px; line-height:36px; height: 38px; margin: 16px 0; padding: 0 10px; }
+	div#driving-action p { padding: 0 60px; }
+}
+ 
+ 
+
+/********************************************************************************************* 
+
+4.  lt 720px 
+
+*********************************************************************************************/ 
+
+@media only screen and (max-width: 719px) {
+
+	.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12, .grid-13, .grid-14, .grid-15, .grid-16 {
+		width: 100%;
+	}
+
+	header h1 { margin-top: -14px; padding-left: 15px; }
+	nav ul { margin: 0 30px 0 0; }
+	nav ul li { margin-left: 24px; }
+		
+	#video { overflow: hidden; }	
+	video { position: relative; left: -50%; width: 200%; }
+		
+	#video h2 { font-size: 16px; height: auto; line-height: normal; padding: 10px; margin: 16px 0; }
+	#video h2 + h2 { margin: 0; }
+	#video h2 br { display: inline; }
+	
+	div#driving-action {
+		border-width: 3px;
+	}
+	div#driving-action p { padding: 0 30px; font-size: 18px; line-height: 27px; }
+	
+	div.halfcircle {
+		height: 35px;
+		width: 70px;
+		margin: -5px auto 0 auto;
+		border-radius: 0 0 70px 70px;
+		-moz-border-radius: 0 0 70px 70px;
+		-webkit-border-radius: 0 0 70px 70px;
+		background: #fff;
+	}
+	div.circle {
+		height: 60px;
+		width: 60px;
+		margin: -65px auto 0 auto;
+		border-radius: 60px;
+		-moz-border-radius: 60px;
+		-webkit-border-radius: 60px;
+		background: #f5821f;
+	}
+	div.circle i {
+		color: #fff;
+		font-size: 30px;
+	}
+
+}
+
+@media only screen and (max-width: 470px) {
+	header,
+	#topnav { text-align: center; padding-left: 10px; padding-right: 10px; }
+	
+	#topnav { padding-bottom: 0; height: auto; }
+	
+	header h1.grid-6,
+	nav.grid-6,
+	nav.grid-6 ul { float: none; padding-left: 0; display: block; }
+	
+	nav ul { margin: 10px 0 0 0; }
+	nav ul li { float: none; display: inline; margin-left: 12px; }
+	nav ul li a { font-size: 13px; }
+}
+
+@media only screen and (max-width: 415px) {
+	
+	header { overflow: hidden; }
+	#topnav a.button { display: none; }
+	header h1 { 
+		margin-top: 72px; margin-left: 28px; 
+		max-width: 384px;
+	}
+	header h1 em {
+		font-size: 90px;
+		line-height: 6px;
+		margin-left: -56px;
+	}
+	
+	nav ul li span { display: none; }
+	nav ul li { margin-left: 8px; }
+	
+	#video h2 { font-size: 14px; }
+	#video div h2:first-child { margin-top: 30px; }
+	
+	div#driving-action h2 { margin-top: 24px; }
+	div#driving-action h2 span { font-size: 62px; }
+}
+
+
+
