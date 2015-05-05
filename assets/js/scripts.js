@@ -73,42 +73,8 @@ $('div#g-work a.button').each(function(){
 			$fades.stop().animate({opacity:100}, 5000);
 		  }
 		}, { offset: '80%' });
-	
-// 		$fades.waypoint(function(direction) {
-// 		  if (direction === 'up') {
-// 			$fades.stop().animate({opacity:0}, 5000);
-// 		  }
-// 		}, { offset: '0' });	
+
 	});
 
-
-		$('div.home-ctas').each(function(){
-		var $fades = $(this);
-		$fades.waypoint(function(direction) {
-		  if (direction === 'down') {
-			$fades.stop().animate({opacity:100}, 5000);
-			$(".mark").lazylinepainter({ 
-				'svgData' : svgData, 
-				'strokeWidth':5,
-				'strokeColor':'#f5821f'
-			}).lazylinepainter('paint');
-		  }
-		}, { offset: '80%' });
-	});
-
-
-		$('div.draw').each(function(){
-		var $fades = $(this);
-		$fades.waypoint(function(direction) {
-		  if (direction === 'down') {
-			$fades.stop().animate({opacity:100}, 5000);
-			$("#mega").lazylinepainter({ 
-				'svgData' : svgData, 
-				'strokeWidth':1.5,
-				'strokeColor':'#f5821f'
-			}).lazylinepainter('paint');
-		  }
-		}, { offset: '80%' });
-	});
 
 });

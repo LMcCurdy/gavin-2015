@@ -70,6 +70,11 @@
 </div><!-- END OF FOOTER WRAPPER -->
 </footer>
 
+<div class="second-footer">
+<div class="wrap">
+<p>328 W. Market St, York PA 17401 | (717) 848-8155 | &copy; <?php echo date('Y'); ?> Gavin Advertising. All Rights Reserved</p>
+</div>
+</div>
 
 
 

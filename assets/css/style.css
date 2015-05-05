@@ -206,6 +206,9 @@ header h1 em, .f-gav em {
     color: #888182;
     text-transform: lowercase;
     letter-spacing: normal;
+    font-family: 'Century Gothic Bold';
+    font-weight: 100;
+
 }
 
 .f-gav em {
@@ -224,8 +227,15 @@ nav ul {
 }
 nav ul li {
     float: left;
-    margin-left: 32px;
+    margin-left: 20px;
 }
+@media only screen and (max-width: 1025px)  { nav ul li { margin-left: 15px; } }
+@media only screen and (max-width: 995px)  { nav ul li { margin-left: 13px; } }
+@media only screen and (max-width: 975px)  { header h1 { width: 45% !important; } nav ul { margin: 55px -20px 0 0; float: right; } }
+@media only screen and (max-width: 900px)  { header h1 { width: 99% !important; margin-top: 15px !important; margin-bottom: 40px; text-align: center; padding-right: 30px; } nav ul { width: 100%; text-align: center; float: none; } nav ul li { margin-left: 24px; float: none; display: inline-block; } }
+
+
+
 nav ul li:first-child {
     margin-left: 0;
 }
@@ -704,12 +714,74 @@ footer a:visited {
 
 @media only screen and (max-width: 1045px)  { .round { width: 40px; height: 40px; line-height: 40px; margin-right: 5px; } }
 
-@media only screen and (max-width: 970px)  { footer .grid-4 { width: 100% !important; } .f-gav { margin-top: 0%; } .contact-gavin{ margin: -15px auto 0% auto; } }
+@media only screen and (max-width: 970px)  { footer .grid-4 { width: 100% !important; } .f-gav { margin-top: 0%; text-align: center; } .contact-gavin{ margin: -15px auto 0% auto; } }
 
 
 @media only screen and (max-width: 880px)  { .contact-gavin p { font-size: 16px; } .contact-gavin { margin: -5px auto 0% auto; } }
 
 @media only screen and (max-width: 800px)  { .contact-home .grid-6 { width: 100%; } .contact-gavin { margin: 50px auto 50px auto; width: 90%; } }
+
+
+
+
+
+.second-footer p {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f5821f;
+}
+
+
+div#introduction {
+  height: 30em;
+  position: relative;
+  background-color: #f5821f;
+}
+
+
+div#introduction h1 {
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%); 
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Century Gothic Bold';
+    font-size: 85px;
+  }
+
+
+#introduction h1 span {
+  display: block;
+  font-size: 25px;
+}
+
+
+.about-the-team p {
+  font-size: 30px;
+  padding: 0 130px;
+  color: #888182;
+  text-align: center;
+  opacity: 0;
+}
+
+.about-the-team hr {
+  margin-top: 24px;
+  color: #d4cbcd;
+  background-color: #d4cbcd;
+  width: 260px;
+  height: 8px;
+  opacity: 0;
+}
+
+.about-the-team {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 
 
 /********************************************************************************************* 
@@ -842,18 +914,30 @@ div.circle i {
     padding-bottom: 0;
     height: auto;
 }
-header h1.grid-6, nav.grid-6, nav.grid-6 ul, .f-gav {
+header h1.grid-6, nav.grid-6, nav.grid-6 ul {
     float: none;
     padding-left: 0;
     display: block;
 }
+
+header h1.grid-6 {
+  margin-top: 60px !important;
+}
+
+
+.f-gav {
+    float: none;
+    padding-left: 15px;
+    display: block;
+}
+
 nav ul {
     margin: 10px 0 0 0;
 }
 nav ul li {
     float: none;
     display: inline;
-    margin-left: 12px;
+    margin-left: 9px;
 }
 nav ul li a {
     font-size: 13px;
@@ -871,7 +955,7 @@ header h1, .f-gav {
     margin-left: 28px;
     max-width: 384px;
 }
-header h1 em, .f-gav em {
+header h1 em {
     font-size: 90px;
     line-height: 6px;
     margin-left: -56px;
@@ -894,4 +978,42 @@ div#driving-action h2 {
 div#driving-action h2 span {
     font-size: 62px;
 }
+
+header h1.grid-6 {
+  margin-top: 95px !important;
 }
+}
+
+
+@media only screen and (max-width: 423px)  {
+.f-gav em {
+  font-size: 50px;
+}
+
+}
+
+@media only screen and (max-width: 400px)  {
+	.f-gav {
+  margin-left: 0px;
+}
+.f-gav em {
+  font-size: 45px;
+}
+
+.round {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 5px;
+}
+
+.social i {
+  line-height: inherit;
+  font-size: 15px;
+}
+
+nav ul li {
+  margin-left: 4px;
+}
+
+	}
