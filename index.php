@@ -1,27 +1,14 @@
-<?php include('includes/header.php'); ?>
+<?php
+// Define variables for SEO
+$pageTitle = 'Gavin Advertising | Devoted to Truth in Branding'; // Title of page //
+$pageDescription = 'Gavin Advertising, a full service award-winning advertising, marketing and public relations agency that is devoted to truth in branding and driving action.'; // Title of page //
+$pageCanonical = 'http://www.gavinadvertising.com/';
+// If we don't want the search engines to see our website just yet
+//$pageRobots = 'noindex,nofollow';
+include('includes/header.php') // Include header file //
+?>
 <body class="landing <?php echo $deviceType ?>">
-	<header class="clearfix">
-		<div id="topnav" class="grid-12">
-			<a href="#" class="button">Work with Gavin</a>
-			<a target="_social" href="//twitter.com/gavinadv"><i class="fa fa-twitter"></i></a>
-			<a target="_social" href="//www.facebook.com/GavinAdvertising" ><i class="fa fa-facebook"></i></a>
-			<a target="_social" href="//www.linkedin.com/company/gavin-advertising"><i class="fa fa-linkedin"></i></a>
-			<a target="_social" href="//plus.google.com/+GavinAdvertisingYork/posts"><i class="fa fa-google-plus"></i></a>
-			<a target="_social" href="#"><i class="fa fa-comments-o"></i></a>
-			<a target="_social" href="//www.pinterest.com/gavinadv/"><i class="fa fa-pinterest-p"></i></a>
-			<a target="_social" href="//instagram.com/gavinadvertising"><i class="fa fa-instagram"></i></a>
-		</div>
-		<h1 class="grid-6"><em>Gavin</em><sup>&trade;</sup> Advertising</h1>	
-		<nav class="grid-6">
-			<ul>
-				<li><a href="#"><span>Our</span> Work</a></li>
-				<li><a href="#">Approach</a></li>
-				<li><a href="#"><span>The</span> Team</a></li>
-				<li><a href="#">About</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
-	</header>
+	<?php include('includes/nav.php'); ?>
 	<div id="video">
 		<a href="#" class="pause"><i class="fa fa-stop"></i></a>
 		<div class="grid-12">
@@ -71,16 +58,132 @@
 	</div>
 	
 	<div id="blocks" class="clearfix">
-		<a href="#"><div id="martins"><div><hr /><p>Martin’s</p></div></div></a>
-		<a href="#"><div id="trespa"><div><hr /><p>Trespa</p><span>Brand building influence.</span></div></div></a>
-		<a href="#"><div id="kimmans"><div><hr /><p>Kimman’s</p></div></div></a>
-		<a href="#"><div class="block"><div><hr /><p>Cindy</div></div></a>
-		<a href="#"><div class="block"><div><hr /><p>Jan</div></div></a>
-		<a href="#"><div class="block"><div><hr /><p>Marsha</div></div></a>
-		<a href="#"><div class="block"><div><hr /><p>Bobby</div></div></a>
-		<a href="#"><div class="block"><div><hr /><p>Peter</div></div></a>
-		<a href="#"><div class="block"><div><hr /><p>Greg</div></div></a>
+		<a href="#"><div id="martins"><div><hr /><p>Martin’s</p><span>All that and a bag of rolls</span></div></div></a>
+		<a href="#"><div id="trespa"><div><hr /><p>Trespa</p><span>Strategic Sales and Marketing</span></div></div></a>
+		<a href="#"><div id="truenorth"><div><hr /><p>True North Wellness</p><span>Branding for Healthcare Consumerism</span></div></div></a>
+		<a href="#"><div id="gig"><div><hr /><p>Glatfelter Insurance Group</p><span>Making complex simple</span></div></div></a>
+		<a href="#"><div id="acnb"><div><hr /><p>ACNB</p><span>More than transactions</span></div></div></a>
+		<a href="#"><div id="kyw"><div><hr /><p>Know Your Windows</p><span>Drive traffic. Get leads.</span></div></div></a>
+		<a href="#"><div id="mini"><div><hr /><p>MINI</p><span>More bite in the bark</span></div></div></a>
+		<a href="#"><div id="yti"><div><hr /><p>York Technical Institute</p><span>Too many hits to shake a diploma at</span></div></div></a>
+		<a href="#"><div id="peoplesbank"><div><hr /><p>PeoplesBank</p><span>Paying it Forward</span></div></div></a>
 	</div>
+
+
+<div id="more-work">
+		<div id="ll-button-work"></div>
+		<a href="#" class="button">View More Work</a>
+</div>
+
+
+<div id="what-we-do">
+<h2>So Here's Exactly<span>What We Do</span></h2>
+<hr />
+</div>
+
+
+<div id="what-we-do-container" class="wrap clearfix">
+
+<div class="grid-6 padding home-ctas">
+<h3>Market Strategy</h3>
+<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+</div>
+
+<div class="grid-6 padding home-ctas">
+<h3>Public Relations</h3>
+<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+</div>
+
+<div class="grid-6 padding home-ctas">
+<h3>Branding &amp; Design</h3>
+<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+</div>
+
+<div class="grid-6 padding home-ctas">
+<h3>Digital</h3>
+<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+</div>
+
+</div><!-- End of what-we-do-container -->
+
+
+
+<div id="who-we-work-with">
+<h2>Our Expertise And<span>Who We Work With</span></h2>
+<hr />
+</div>
+
+
+<div id="experts" class="wrap clearfix">
+
+<div class="grid-6 padding home-ctas">
+<h3>Brand Building</h3>
+<p>Our brand development team implements a strong, unified strategy across all media platforms to deliver a consistent message that is true to our organizational mission and vision an will drive brand awareness among the most desired target audiences.</p>
+</div>
+
+<div class="grid-6 padding home-ctas">
+<h3>Educational</h3>
+<p>Our team works with PK-12 and post-secondary schools and systems, including public, independent, charter, college, university and career training schools. We help schools develop comprehensive marketing strategies designed to move an organization forward in an aggressively evolving educational environment where families have more choices.</p>
+</div>
+
+<div class="grid-6 padding home-ctas">
+<h3>Healthcare</h3>
+<p>Crafting a plan that connects with all audiences, from patients to referral sources to providers and donors, and having a sustainable communications model for care that builds your community, improves the health of those you serve and positions your brand as a market leader is what we focus on.</p>
+</div>
+
+<div class="grid-6 padding home-ctas">
+<h3>Building Supply</h3>
+<p>Manufacturers, distributors and home improvement retailers within the building supply industry is where our experience lies. We aim to establish and improve brand recognition, invigorate consumers and trade engagement and do what matters...drive sales.</p>
+</div>
+
+<div class="grid-6 padding home-ctas">
+<h3>Consumer Packaged Goods</h3>
+<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+</div>
+
+<div class="grid-6 padding home-ctas">
+<h3>CTA Here!</h3>
+<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+</div>
+
+</div><!-- End of experts -->
+
+
+
+<div id="lets-connect">
+<h2>Ready for the next step?<span>Let's Connect!</span></h2>
+<hr />
+</div>
+
+<div class="contact-home clearfix">
+
+<div class="grid-6">
+<div class="videoWrapper">
+<iframe src="https://mapsengine.google.com/map/u/0/embed?mid=z8r2UX_SSKu8.k0UKYJNb_irs" width="640" height="480"></iframe>
+</div>
+</div>
+
+<div class="grid-6 footer-contact">
+<div class="contact-gavin">
+<p>328 W. Market St.<br />York PA 17401</p>
+<p>O: (717) 848-8155<br />F: (717) 855-2292</p>
+<p>gavin@gavinadv.com</p>
+
+<div id="g-work">
+		<div id="abox"></div>
+		<a href="#" class="button">Work With Gavin</a>
+</div>
+</div>
+</div>
+
+
+</div><!-- End of lets-connect -->
+
+
+
+
+
+
 	<?php include('includes/footer.php'); ?>
 </body>
 </html>

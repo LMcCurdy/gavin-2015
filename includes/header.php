@@ -12,8 +12,23 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<title>Gavin Advertising - Devoted to Truth in Branding</title>
-<meta name="description" content="">
+
+<title><?php echo $pageTitle; ?></title>
+        <meta name="description" content="<?php echo $pageDescription; ?>">
+        <?php
+        // If canonical URL is specified, include canonical link element
+		if($pageCanonical)
+		{
+		echo '<link rel="canonical" href="' . $pageCanonical . '">';
+		}
+		// If meta robots content is specified, include robots meta tag
+		if($pageRobots)
+		{
+		echo '<meta name="robots" content="' . $pageRobots . '">';
+		}
+		?>
+
+
 <meta name="viewport" content="width=device-width">
 
 <link rel="stylesheet" href="assets/css/normalize.css">
