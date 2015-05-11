@@ -1,5 +1,7 @@
+
+<?php $siteURL = "http://www.gavinadvertising.com/alpha/"; ?>
 <?php 
-	require_once 'includes/Mobile_Detect.php';
+	require_once ($_SERVER['DOCUMENT_ROOT'].'/alpha/includes/Mobile_Detect.php');
 	$detect = new Mobile_Detect;
 	$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
 	$scriptVersion = $detect->getScriptVersion();
@@ -31,9 +33,9 @@
 
 <meta name="viewport" content="width=device-width">
 
-<link rel="stylesheet" href="assets/css/normalize.css">
+<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/css/normalize.css">
 <!-- <link rel="stylesheet" href="assets/css/rwdgrid.css"> -->
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/css/style.css">
 
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
 

@@ -32,6 +32,9 @@ $(document).ready(function() {
 	});
 
 
+		
+
+
 		$('div#more-work a.button').each(function(){
 		var $fades = $(this);
 		$fades.waypoint(function(direction) {
@@ -75,6 +78,27 @@ $('div#g-work a.button').each(function(){
 		}, { offset: '80%' });
 
 	});
+
+
+$( ".mandy-bio" ).click(function( event ) {
+  event.preventDefault();
+
+  });
+
+	$(".mandy-bio").click(function(){
+        $("#mandy-bio-box").toggle(200);
+    });
+
+
+
+// Fade in divs consecutively (optional delay)
+var delayBetweenEach = 600;
+var fadeSpeed = 1000;
+$(".icon").delay(800).each(function(index) {$(this).delay(delayBetweenEach*index).fadeIn(fadeSpeed);});
+
+
+
+
 
 
 });

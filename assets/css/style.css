@@ -517,6 +517,139 @@ div#blocks a:hover hr {
 @media only screen and (max-width: 400px)  { div#blocks a:hover hr { width: 100%; position: relative; margin-top: -340px; } }
 
 
+/* EMPLOYEE BLOCK STYLES ************************************************************************************************
+
+*********************************************************************************************************************** */
+
+
+div#blocks-em {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 800px) and (max-width: 1199px) {
+    div#blocks-em {
+    max-width: 800px;
+}
+}
+@media only screen and (min-width: 400px) and (max-width: 799px) {
+    div#blocks-em {
+    max-width: 400px;
+}
+}
+div#blocks-em a > div {
+    height: 400px;
+    width: 400px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: left;
+    display: table;
+    position: relative;
+}
+div#blocks-em div div {
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Century Gothic Bold';
+    display: table-cell;
+  vertical-align: top;
+  padding-left: 36px;
+  padding-right: 36px;
+}
+div#blocks-em hr {
+    height: 6px;
+      width: 100%;
+  margin-top: 70px;
+    color: #fff;
+    background-color: #fff;
+    margin-bottom: 12px;
+}
+div#blocks-em p {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: absolute;
+  left: 36px;
+  top: 36px;
+}
+
+@media only screen and (max-width: 400px) {
+    div#blocks-em a > div {
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    float: none;
+    display: block;
+}
+div#blocks-em div div {
+    display: block;
+    margin: -55% 0 0 0;
+}
+}
+
+
+
+div#mandy {
+    background-image: url('../img/mandy_arnold_gavin_advertising.jpg');
+    
+}
+
+div#tracey {
+    background-image: url('../img/tracey_johnston_gavin_advertising.jpg');
+    
+}
+
+div#aimee {
+    background-image: url('../img/aimee_gochnauer_gavin_advertising.jpg');
+    
+}
+
+button.bio {
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid;
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  text-transform: uppercase;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition:all 0.5s ease;
+}
+
+
+.orange:hover button.bio {
+  background-color: #fff;
+  color: #f5821f;
+}
+
+
+.blue:hover button.bio {
+  background-color: #fff;
+  color: #00b3e4;
+}
+
+
+.gray:hover button.bio {
+  background-color: #fff;
+  color: #D5CCCD;
+}
+
+
+
+@media only screen and (max-width: 400px)  { div#blocks-em hr { width: 100%; position: relative; margin-top: -340px; } }
+
+
+
+/* EMPLOYEE BLOCK STYLES ************************************************************************************************
+
+*********************************************************************************************************************** */
+
+
+
+
+
+
 div#more-work {
   margin: 50px 0 50px 0;
   position: relative;
@@ -587,6 +720,165 @@ div#mega {
 @media only screen and (max-width: 770px)  { .home-ctas p { min-height: 180px; } }
 @media only screen and (max-width: 720px)  { .home-ctas p { min-height: 0; } }
 
+
+
+/********************************************************************************************
+
+Employee BIO block boxes - Displays over two rows of employees when the bio button is clicked
+
+*********************************************************************************************/ 
+
+.bio-box {
+  position: absolute;
+  height: 800px;
+  width: 1200px;
+  z-index: 8;
+  display: none;
+}
+
+.orange-bio {
+   background-color: #f6821f;
+}
+
+.bio-box img {
+  position: relative;
+  left: -72px;
+}
+
+div#blocks-em p.em-title {
+  font-family: 'Century Gothic Bold';
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+div#blocks-em .bio-box hr {
+  width: 50%;
+  margin-top: 10px;
+}
+
+div#blocks-em p.bio-dec {
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: none;
+}
+
+div#blocks-em p.social-bio {
+  position: relative;
+  top: 0;
+  left: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.social-bio i {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 30px;
+}
+
+div#blocks-em p.em-title {
+  font-family: 'Century Gothic Bold';
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 40px;
+}
+
+div#blocks-em p.interview {
+  font-family: 'Century Gothic Bold';
+  position: relative;
+  left: 0px;
+  top: 0px;
+  margin: 0 auto;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+div#blocks-em .bio-box .interview-con {
+  display: block;
+}
+
+div#blocks-em div.questions {
+  vertical-align: middle;
+  position: relative;
+}
+
+div#blocks-em .bio-box .interview-con hr {
+  margin-top: 0;
+  display: inline-block;
+  margin-left: 20px;
+  width: 80%;
+}
+
+div#blocks-em .questions p {
+  position: relative;
+  left: 0;
+  top: 0;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-transform: none;
+}
+
+div#blocks-em .questions strong {
+  font-size: 17px;
+  padding-bottom: 0px;
+  display: block;
+}
+
+.social-bio a {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #fff;
+
+}
+
+a.close-bio {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+  display: block;
+  margin-top: 5px;
+}
+
+
+
+@media only screen and (max-width: 1200px)  { 
+  .bio-box { width: 800px; } 
+  div#blocks-em p.em-title { font-size: 30px; }
+  div#blocks-em p.bio-dec { padding-top: 10px; }
+  div#blocks-em p.social-bio { padding-top: 0px; }
+  div#blocks-em p.interview { padding-top: 0px; }
+  div#blocks-em .bio-box .interview-con hr {   width: 65%; }
+  div#blocks-em div.questions div { padding-left: 20px; padding-right: 10px; }
+}
+
+@media only screen and (max-width: 800px)  { 
+  .bio-box { width: 400px;   height: 1600px; } 
+  div#blocks-em .bio-intro-div { width: 100%; display: block; }
+  .bio-box img { width: 400px; }
+  div#blocks-em .bio-intro-div .grid-4 { width: 100%; display: block; }
+  div#blocks-em .bio-intro-div .grid-8 { width: 100%; display: block; padding-left: 0; padding-right: 0; }
+  div#blocks-em p.em-title { font-size: 25px; }
+  div#blocks-em p.interview { text-align: center; display: block; padding-top: 30px; }
+  div#blocks-em .bio-box .interview-con hr { margin-left: 0; width: 100%; }
+  div#blocks-em div.questions { padding-left: 0; padding-right: 0; }
+  div#blocks-em .bio-box .questions .grid-6 { width: 100%; }
+  div#blocks-em .questions p { padding-top: 10px; }
+}
 
 
 /********************************************************************************************* 
@@ -735,18 +1027,18 @@ footer a:visited {
 div#introduction {
   height: 30em;
   position: relative;
-  background-color: #f5821f;
+  background-image: url('../img/staff.jpg');
+  padding-top: 150px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
 }
 
 
 div#introduction h1 {
     margin: 0;
-    position: absolute;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%); 
     color: #fff;
     text-transform: uppercase;
     font-family: 'Century Gothic Bold';
@@ -783,6 +1075,180 @@ div#introduction h1 {
 }
 
 
+.team #driving-action {
+  border-top: none;
+}
+
+.team {
+  margin-top: 100px;
+}
+
+.team p span {
+  color: #f5821f;
+  font-weight: bold;
+}
+
+.team p {
+  margin-bottom: 70px;
+}
+
+
+div#project {
+  height: 35em;
+  position: relative;
+  padding-top: 50px;
+}
+
+div.yellow {
+  background-color: #FBD81A;
+}
+
+
+div#project h1 {
+    margin: 0;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Century Gothic Bold';
+    font-size: 85px;
+    position: relative;
+  }
+
+
+div#project h1:after {
+  content: '';
+  position: relative;
+  height: 5px;
+  width: 430px;
+  background-color: #fff;
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+
+div#project p {
+  color: #fff;
+  text-align: center;
+  max-width: 800px;
+  position: relative;
+  margin: 0 auto;
+  font-family: 'Century Gothic Bold';
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.icon svg {
+  width: 100%;
+  height: auto;
+}
+
+.icon {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  float: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  border: 2px solid #fff;
+  padding: 10px;
+  display: none;
+}
+
+.icon-con {
+  position: relative;
+  margin: 0 auto;
+  width: 450px;
+  margin-top: 50px;
+}
+
+.lite-gray {
+  background-color: #B7B7B9;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+}
+
+.small-wrap-left {
+  max-width: 500px;
+  margin: 0 0 0 auto;
+  padding-right: 40px;
+  color: #fff;
+}
+
+.small-wrap-right {
+  max-width: 500px;
+  margin: 0 auto 0 0;
+  padding-left: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.lite-gray h2 {
+  font-family: 'Century Gothic Bold';
+  text-transform: uppercase;
+  font-size: 40px;
+}
+
+.lite-gray h2:after {
+  content: '';
+  position: relative;
+  height: 5px;
+  width: 430px;
+  background-color: #fff;
+  display: block;
+  margin-top: 10px;
+}
+
+.lite-gray ul {
+  font-family: 'Century Gothic Bold';
+  text-transform: uppercase;
+  font-size: 19px;
+  list-style: outside;
+}
+
+.small-wrap-right p {
+  padding-top: 40px;
+}
+
+
+.big-book {
+  height: 60em;
+  background-image: url('../img/trespa-book.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.project-h3 {
+  color: #FBD81A;
+  text-align: center;
+  font-size: 70px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+    font-family: 'Century Gothic Bold';
+  text-transform: uppercase;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.about-the-project p {
+  color: #231F20;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+
+
+.ipad-display {
+  height: 60em;
+  background-image: url('../img/trespa-ipad.png');
+  background-position: 1160px;
+  background-size: 65%;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
 
 /********************************************************************************************* 
 

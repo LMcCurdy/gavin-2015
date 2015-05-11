@@ -13,7 +13,7 @@
 		<nav class="grid-6">
 			<ul>
 				<li><a href="#"><span>Our</span> Work</a></li>
-				<li><a href="#">Specialty</a></li>
+				<li><a href="#">Expertise</a></li>
 				<li><a href="#">Approach</a></li>
 				<li><a href="#"><span>The</span> Team</a></li>
 				<li><a href="#">About</a></li>
