@@ -12,9 +12,9 @@ include('includes/header.php') // Include header file //
 	<div id="video">
 		<a href="#" class="pause"><i class="fa fa-stop"></i></a>
 		<div class="grid-12">
-			<h2>Welcome to downtown York City.</h2>
+			<h2>Creative solutions for a changing media market.</h2>
 			<br />
-			<h2>We&rsquo;re not new, we&rsquo;re fresh. <br />Like creative flirtation.</h2>
+			<h2>How it should be.</h2>
 		</div>
 		<video autoplay loop poster="assets/video/placeholder.png" width="100%" height="auto">
 			<!-- .mp4 file for native playback in IE9+, Firefox, Chrome, Safari and most mobile browsers -->
@@ -42,7 +42,7 @@ include('includes/header.php') // Include header file //
 		<div class="circle"><i class="fa fa-angle-double-down"></i></div>
 		<h2 class="fade-me">We&rsquo;re devoted to truth in branding <span>and driving action.</span></h2>
 		<hr class="fade-me" />
-		<p class="fade-me">We take a different approach to being an advertising, marketing and public relations agency. We believe in truth in branding and driving action. We thrive on influencing behavior. Live to excite clients with inventive solutions. And always keep our eye on the prize: measurable outcomes.</p>
+		<p class="fade-me">We take a different approach to being an advertising, public relations and digital marketing agency. We believe in truth in branding and driving action. We thrive on influencing behavior in a complex media market with authentic messaging and strong calls to action. We live to excite clients with inventive solutions by always keeping our eye on the prize: measurable outcomes.</p>
 		<div id="ll-button"></div>
 		<a href="#" class="button">Here&rsquo;s how we do it</a>
 <!-- 
@@ -72,7 +72,7 @@ include('includes/header.php') // Include header file //
 
 <div id="more-work">
 		<div id="ll-button-work"></div>
-		<a href="#" class="button">View More Work</a>
+		<a href="gavin-awards.php" class="button">View Our Awards</a>
 </div>
 
 
@@ -85,23 +85,35 @@ include('includes/header.php') // Include header file //
 <div id="what-we-do-container" class="wrap clearfix">
 
 <div class="grid-6 padding home-ctas">
+<div id="target-draw" class="draw-icon-home">
+<div id="target"></div>
+</div>
 <h3>Market Strategy</h3>
-<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+<p>We investigate market opportunities for growth and expansion. From focus groups to secondary research and team-building activities, our team crafts effective messaging platforms with complete implementation plans.</p>
 </div>
 
 <div class="grid-6 padding home-ctas">
+<div id="megaphone-draw" class="draw-icon-home">
+<div id="megaphone"></div>
+</div>
 <h3>Public Relations</h3>
-<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+<p>We build influence. With more than $10,000,000 in media equivalency value for our clients, our team is the go-to for brands looking to build trust through strategically consistent exposure across every media channel imaginable. </p>
 </div>
 
 <div class="grid-6 padding home-ctas">
+<div id="pen-draw" class="draw-icon-home">
+<div id="pen"></div>
+</div>
 <h3>Branding &amp; Design</h3>
-<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+<p>In building brands from the ground up and creating an authentic brand experience, our design is more than just pretty — we craft creative that drives action.</p>
 </div>
 
 <div class="grid-6 padding home-ctas">
+<div id="computer-draw" class="draw-icon-home">
+<div id="computer"></div>
+</div>
 <h3>Digital</h3>
-<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+<p>Living digital is how we approach your brand’s online presence. We know digital media consumption is changing at a rapid pace, and our team designs around the user’s experience.</p>
 </div>
 
 </div><!-- End of what-we-do-container -->
@@ -117,33 +129,51 @@ include('includes/header.php') // Include header file //
 <div id="experts" class="wrap clearfix">
 
 <div class="grid-6 padding home-ctas">
+<div id="light-bulb-draw" class="draw-icon-home">
+<div id="light-bulb"></div>
+</div>
 <h3>Brand Building</h3>
-<p>Our brand development team implements a strong, unified strategy across all media platforms to deliver a consistent message that is true to our organizational mission and vision an will drive brand awareness among the most desired target audiences.</p>
+<p>We build brands with a comprehensive strategy to take your idea or product to target audiences. Beyond consumers, we think about investors, competition, future influences and market value.</p>
 </div>
 
 <div class="grid-6 padding home-ctas">
+<div id="book-draw" class="draw-icon-home">
+<div id="book"></div>
+</div>
 <h3>Educational</h3>
-<p>Our team works with PK-12 and post-secondary schools and systems, including public, independent, charter, college, university and career training schools. We help schools develop comprehensive marketing strategies designed to move an organization forward in an aggressively evolving educational environment where families have more choices.</p>
+<p>Educational options are wide ranging. Using public relations, messaging and targeted approaches, we move your organization forward in an aggressively evolving educational environment.</p>
 </div>
 
 <div class="grid-6 padding home-ctas">
+<div id="doctor-draw" class="draw-icon-home">
+<div id="doctor"></div>
+</div>
 <h3>Healthcare</h3>
-<p>Crafting a plan that connects with all audiences, from patients to referral sources to providers and donors, and having a sustainable communications model for care that builds your community, improves the health of those you serve and positions your brand as a market leader is what we focus on.</p>
+<p>From patients and referral sources to providers and donors, we work to engage your community, improve the health of those you serve and position your brand as a market leader.</p>
 </div>
 
 <div class="grid-6 padding home-ctas">
+<div id="hammer-draw" class="draw-icon-home">
+<div id="hammer"></div>
+</div>
 <h3>Building Supply</h3>
-<p>Manufacturers, distributors and home improvement retailers within the building supply industry is where our experience lies. We aim to establish and improve brand recognition, invigorate consumers and trade engagement and do what matters...drive sales.</p>
+<p>It’s a complex supply channel, and we know all your segments by heart. Our team builds a plan for the realities of how your target audience consumes content and makes decisions, from the job site to the trade show.</p>
 </div>
 
 <div class="grid-6 padding home-ctas">
+<div id="box-draw" class="draw-icon-home">
+<div id="box"></div>
+</div>
 <h3>Consumer Packaged Goods</h3>
-<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+<p>Get it in the cart. Whether it’s the grocery cart or the digital shopping cart, we know CPG. We build engaging digital and brick-and-mortar approaches that drive sales.</p>
 </div>
 
 <div class="grid-6 padding home-ctas">
-<h3>CTA Here!</h3>
-<p>Shank sirloin andouille kevin. Capicola pork chop doner flank, brisket ham hock meatball pork belly jerky. Jowl bacon strip steak, t-bone tenderloin brisket spare ribs tongue pork belly ball tip. Pork chop pork belly meatball chuck venison alcatra. Short loin brisket turducken, hamburger meatloaf shankle doner ball tip. Venison corned beef alcatra meatloaf short loin. Turkey shankle pork, venison tail swine capicola.</p>
+<div id="paper-draw" class="draw-icon-home">
+<div id="paper"></div>
+</div>
+<h3>Work With Us!</h3>
+<p>We thrive on influencing behavior. Live to excite clients with inventive solutions. And always keep our eye on the prize: measurable outcomes. We work to pinpoint our client’s exception difference and then amplify it with exceptional, well-thought-out creative that drives action.</p>
 </div>
 
 </div><!-- End of experts -->
@@ -151,7 +181,7 @@ include('includes/header.php') // Include header file //
 
 
 <div id="lets-connect">
-<h2>Ready for the next step?<span>Let's Connect!</span></h2>
+<h2>Ready for the next step?<span>Let’s Connect!</span></h2>
 <hr />
 </div>
 
@@ -167,11 +197,11 @@ include('includes/header.php') // Include header file //
 <div class="contact-gavin">
 <p>328 W. Market St.<br />York PA 17401</p>
 <p>O: (717) 848-8155<br />F: (717) 855-2292</p>
-<p>gavin@gavinadv.com</p>
+<p><a href="mailto:gavin@gavinadv.com">gavin@gavinadv.com</a></p>
 
 <div id="g-work">
-		<div id="abox"></div>
-		<a href="#" class="button">Work With Gavin</a>
+		<div id="abox" class="abox"></div>
+		<a href="<?php echo $siteURL; ?>work-with-us.php" class="button">Work With Gavin</a>
 </div>
 </div>
 </div>

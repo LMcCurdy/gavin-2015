@@ -17,7 +17,7 @@ include('includes/header.php') // Include header file //
 
 <div class="about-the-team wrap">
 <hr class="fade-me" />
-<p class="fade-me">We take a different approach to being an advertising, marketing and public relations agency. We believe in truth in branding and driving action. We thrive on influencing behavior. Live to excite clients with inventive solutions. And always keep our eye on the prize: measurable outcomes.</p>
+<p class="fade-me">We’ve assembled a diverse set of big brand experience, knowledge of regional economies and market know-how into one team. All under one roof, your Gavin team is made up of folks who live digital lives, passionately move people through authentic connections and thrive on delivering results. </p>
 </div>
 
 <div id="blocks-em" class="clearfix">
@@ -109,7 +109,7 @@ include('includes/header.php') // Include header file //
 		<hr class="fade-me" />
 		<p class="fade-me">Potential candidates for all positions should thrive in a creative environment and possess a never settle attitude. Should not be offended by “occasional” swearing in the office and have an affinity for the color orange <span>(Pantone 166 C, to be exact).</span></p>
 		<div id="ll-button"></div>
-		<a href="#" class="button">Show Us Your R&Eacute;sum&Eacute;</a>
+		<a href="mailto:gavin@gavinadv.com" class="button">Show Us Your R&Eacute;sum&Eacute;</a>
 
 
 </div>

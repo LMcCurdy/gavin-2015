@@ -33,6 +33,12 @@
 
 <meta name="viewport" content="width=device-width">
 
+<!-- Important Owl stylesheet -->
+<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/owl/owl.carousel.css">
+ 
+<!-- Default Theme -->
+<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/owl/owl.theme.css">
+
 <link rel="stylesheet" href="<?php echo $siteURL; ?>assets/css/normalize.css">
 <!-- <link rel="stylesheet" href="assets/css/rwdgrid.css"> -->
 <link rel="stylesheet" href="<?php echo $siteURL; ?>assets/css/style.css">

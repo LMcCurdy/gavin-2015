@@ -4,6 +4,35 @@
 
 <div class="grid-4 logo-foot">
 <p class="f-gav"><em>Gavin</em><sup>&trade;</sup> Advertising</p>
+<!--NEW MAILCHIMP FORM -->
+<div id="mc_embed_signup">
+<p id="mail-p">Sign up for the latest updates from Gavin</p>
+			<form data-abide action="//gavinadvertising.us2.list-manage.com/subscribe/post?u=9b1519964314255f378990afb&amp;id=11f22c8004" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate clearfix" target="_blank">
+				<div id="mc_embed_signup_scroll">
+				<div class="name-field">
+					<input name="FNAME" type="text" required value="" placeholder="First Name*" id="mce-FNAME" />
+					<small class="error">First Name is required</small>
+				</div>
+				<div class="name-field">
+					<input name="LNAME" type="text" required value="" placeholder="Last Name*" id="mce-LNAME" />
+					<small class="error">Last Name is required</small>
+				</div>
+				<div class="email-field">
+					<input name="EMAIL" type="email" required value="" placeholder="Email Address*" id="mce-EMAIL" />
+					<small class="error">Email is required and must be valid</small>
+				</div>
+				<input type="submit" value="Sign Up" name="subscribe" id="mc-embedded-subscribe">
+				<div style="position: absolute; left: -5000px;"><input type="text" name="b_9b1519964314255f378990afb_11f22c8004" tabindex="-1" value="">
+				</div>
+			</form>
+			</div>
+				<div id="mce-responses" style="margin-top: 10px;">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>
+<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+<!-- NEW MAILCHIMP FORM -->
+</div>
 </div>
 
 <div class="grid-4 padding-f blog-feed">
@@ -11,20 +40,16 @@
 
 <!-- DELETE THE HTML BELOW WHEN THE SITE GOES LIVE & UNCOMMENT THE RSS PHP CODE -->
 
-<p><strong>Microsoft Does Cool Things To W10</strong>
+<p><strong><a href="#" class="title-link">Microsoft Does Cool Things To W10</a></strong>
 <span>With the official announcement of Windows 10 and a bunch of new products Microsoft is still worse than Apple. Last year Apple made...</span>
 <a href="#">Read More</a>
 </p>
 
-<p><strong>Gavin Hires Awesome Magician</strong>
+<p><strong><a href="#" class="title-link">Gavin Hires Awesome Magician</a></strong>
 <span>Gavin hired another cool web developer last week. Little did they know he was an awesome magician who, on a daily basis would perform card tricks...</span>
 <a href="#">Read More</a>
 </p>
 
-<p><strong>Orange is The New Black</strong>
-<span>A picture is making its rounds on social media this morning. The picture is of the walls in the Gavin offices. The question is, are they orange or gold?</span>
-<a href="#">Read More</a>
-</p>
 
 
 
@@ -56,12 +81,24 @@
 <div class="grid-4 padding-f social">
 <h4>Find Us on Social Media</h4>
 
-<a href="#"><div class="round"><i class="fa fa-twitter"></i></div> @gavinadv</a>
-<a href="#"><div class="round"><i class="fa fa-facebook"></i></div> facebook.com/gavinadvertising</a>
-<a href="#"><div class="round"><i class="fa fa-linkedin"></i></div> linkedin.com/company/gavin-advertising</a>
-<a href="#"><div class="round"><i class="fa fa-google-plus"></i></div> plus.google.com/+GavinAdvertisingYork</a>
-<a href="#"><div class="round"><i class="fa fa-instagram"></i></div> @gavinadvertising</a>
-<a href="#"><div class="round"><i class="fa fa-pinterest"></i></div> gavin advertising</a>
+
+<div class="social-media-icons">
+<a href="#"><i class="fa fa-twitter"></i> @gavinadv</a>
+<a href="#"><i class="fa fa-facebook"></i> facebook.com/gavinadvertising</a>
+<a href="#"><i class="fa fa-linkedin"></i> linkedin.com/company/gavin-advertising</a>
+<a href="#"><i class="fa fa-google-plus"></i> plus.google.com/+GavinAdvertisingYork</a>
+<a href="#"><i class="fa fa-instagram"></i> @gavinadvertising</a>
+<a href="#"><i class="fa fa-pinterest"></i> gavin advertising</a>
+</div>
+
+<div class="social-media-icons-mobile">
+<a href="#"><i class="fa fa-twitter"></i></a>
+<a href="#"><i class="fa fa-facebook"></i></a>
+<a href="#"><i class="fa fa-linkedin"></i></a>
+<a href="#"><i class="fa fa-google-plus"></i></a>
+<a href="#"><i class="fa fa-instagram"></i></a>
+<a href="#"><i class="fa fa-pinterest"></i></a>
+</div>
 
 </div>
 
@@ -72,7 +109,7 @@
 
 <div class="second-footer">
 <div class="wrap">
-<p>328 W. Market St, York PA 17401 | (717) 848-8155 | &copy; <?php echo date('Y'); ?> Gavin Advertising. All Rights Reserved</p>
+<p><span class="f-sec">328 W. Market St, York PA 17401</span><span class="delete-sec"> | </span><span class="f-sec">(717) 848-8155</span><span class="delete-sec"> | </span><span class="f-sec">&copy; <?php echo date('Y'); ?> Gavin Advertising.</span><span class="f-sec">All Rights Reserved</span></p>
 </div>
 </div>
 
@@ -102,7 +139,15 @@
 <script src="<?php echo $siteURL; ?>assets/js/jquery.lazylinepainter-1.5.1.min.js"></script>
 <script src="<?php echo $siteURL; ?>assets/js/jquery.waypoints.min.js"></script>
 <script src="<?php echo $siteURL; ?>assets/js/svgs.js"></script>
+<script src="<?php echo $siteURL; ?>assets/owl/owl.carousel.js"></script>
 <script src="<?php echo $siteURL; ?>assets/js/scripts.js"></script>
+<script src="<?php echo $siteURL; ?>assets/js/validate.js"></script>
+
+ <script>
+$().ready(function() {
+$("#contactForm").validate();
+});
+</script>
 
 <!-- html5.js for IE less than 9 -->
 <!--[if lt IE 9]>

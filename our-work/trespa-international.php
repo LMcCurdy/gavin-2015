@@ -14,7 +14,7 @@ include('../includes/header.php') // Include header file //
 <h1>Trespa</h1>
 <p>WHEN TRESPA INTERNATIONAL WAS LOOKING FOR SUPPORT TO ESTABLISH A CONSISTENT SALES AND MARKETING MESSAGE THROUGHOUT ITS NORTH AMERICAN DIVISION AND GEOGRAPHY, IT TURNED TO THE GAVIN TEAM FOR OUR EXTENSIVE CHANNEL MARKETING EXPERIENCE IN THE BUILDING SUPPLY INDUSTRY.</p>
 
-<div class="icon-con">
+<div class="icon-con clearfix">
 <div class="icon">
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
@@ -121,6 +121,45 @@ include('../includes/header.php') // Include header file //
 
 <div class="grid-6 ipad-display"></div>
 
+</div>
+
+
+
+<div class="big-mag"></div>
+
+
+<div class="wrap bottom-con clearfix">
+
+<div class="grid-6">
+<p>Trespa North America is the North America division of Trespa International B.V., a leading innovator in the field of architectural materials, recognized internationally as the premier developer of high quality panels for exterior cladding, decorative facades, and interior surfaces.</p>
+</div>
+
+<div class="grid-6 center">
+<img src="../assets/img/Trespa-Black-Logo-small.jpg">
+<a href="#" class="button">Visit Their Website</a>
+</div>
+
+
+</div>
+
+
+<div class="similar-work">
+<p class="sim">View Similar Work</p>
+<div class="wrap">
+<div id="work-slide">
+          
+  <div class="item"><a href="#"><img src="../assets/img/GVN.HomePage.Martins.jpg"><div class="content-work"><hr /><p>Martin’s</p></div></a></div>
+  <div class="item"><a href="#"><img src="../assets/img/GVN.HomePage.Martins.jpg"><div class="content-work"><hr /><p>Martin’s</p></div></a></div>
+  <div class="item"><a href="#"><img src="../assets/img/GVN.HomePage.Martins.jpg"><div class="content-work"><hr /><p>Martin’s</p></div></a></div>
+  <div class="item"><a href="#"><img src="../assets/img/GVN.HomePage.Martins.jpg"><div class="content-work"><hr /><p>Martin’s</p></div></a></div>
+  <div class="item"><a href="#"><img src="../assets/img/GVN.HomePage.Martins.jpg"><div class="content-work"><hr /><p>Martin’s</p></div></a></div>
+  <div class="item"><a href="#"><img src="../assets/img/GVN.HomePage.Martins.jpg"><div class="content-work"><hr /><p>Martin’s</p></div></a></div>
+
+
+ 
+</div>
+
+</div>
 </div>
 
 	<?php include('../includes/footer.php'); ?>
