@@ -1,7 +1,7 @@
 <?php
 // Define variables for SEO
-$pageTitle = 'I Love York City'; // Title of page //
-$pageDescription = ''; // Title of page //
+$pageTitle = 'I Love York, PA | Gavin Advertising'; // Title of page //
+$pageDescription = 'Learn why we love York, PA & why we are dedicated to helping local businesses revitalize the nation\'s first capital by providing effective marketing solutions.'; // Title of page //
 $pageCanonical = 'http://www.gavinadvertising.com/i-love-york-city.php';
 // If we don't want the search engines to see our website just yet
 //$pageRobots = 'noindex,nofollow';

@@ -33,8 +33,8 @@ Author URI: http://www.gavinadvertising.com/
   font-family: 'Century Gothic Bold';
   color: #888182;
   font-size: 110px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .orangeJuice h2 {
@@ -144,7 +144,8 @@ box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.12);
 }
 
 .blog-post-con img {
-    width: 100%;
+  width: 120%;
+  opacity: 0.7;
 }
 
 .blog-post-con p {
@@ -178,10 +179,253 @@ box-shadow: 10px 10px 11px -5px rgba(0,0,0,0.12);
 }
 
 .post-thumb {
-    width: 100%;
-    height: 300px;
-    overflow: hidden;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  background-color: #ccc;
 }
+
+
+.social-share {
+  position: absolute;
+  z-index: 333;
+  top: 265px;
+  left: 10px;
+}
+
+.social-share i {
+  color: #fff;
+  border: 1px solid;
+  border-radius: 15px;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  background-color: transparent;
+}
+
+.social-share i:hover {
+    background-color: #fff;
+    color: #f5821f;
+    border: 1px solid #fff;
+}
+
+
+.featured-header {
+  height: 500px;
+  overflow: hidden;
+  position: relative;
+}
+
+.featured-header img {
+    width: 100%;
+    height: auto;
+}
+
+.post-title-block {
+    background-color: #d4cbcd;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.post-title-block h1 {
+  color: #fff;
+  font-family: 'Century Gothic Bold';
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.date-big {
+  float: left;
+  width: 30%;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.date-big p {
+  font-size: 30px;
+  color: #888182;
+  border-bottom: 2px solid;
+  padding-bottom: 15px;
+}
+
+.first-content {
+  float: right;
+  width: 60%;
+  padding-top: 20px;
+}
+
+.big-middle {
+  border-top: 2px solid #f5821f;
+  border-bottom: 2px solid #f5821f;
+  width: 95%;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.big-middle p {
+    font-family: 'Century Gothic';
+    color: #01b3e3;
+    font-size: 28px;
+}
+
+.second-content {
+    float: right;
+  width: 60%;
+  padding-top: 20px;
+  margin-bottom: 50px;
+}
+
+.social-share-single {
+  position: absolute;
+  right: 0;
+  top: 35%;
+  z-index: 88;
+  background-color: #fff;
+  width: 80px;
+  padding: 10px;
+}
+
+.social-share-single a {
+  display: block;
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  line-height: 27px;
+  margin: 0 auto;
+  margin-bottom: 14px;
+}
+
+.social-share-single {
+  position: absolute;
+  right: 0;
+  top: 35%;
+  z-index: 88;
+  background-color: #fff;
+  width: 80px;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+
+.social-share-single a:hover, .social-share-bottom a:hover {
+  background-color: orange;
+  color: #fff;
+  border: 2px solid orange;
+}
+
+.social-share-bottom {
+  float: right;
+  width: 300px;
+  text-align: right;
+  margin-top: 40px;
+  margin-bottom: 140px;
+}
+
+.social-share-bottom p {
+  display: inline;
+  color: #01b3e3;
+  text-transform: uppercase;
+  font-family: 'Century Gothic Bold';
+}
+
+
+.social-share-bottom a {
+  display: inline-block;
+  text-align: center;
+  font-size: 15px;
+  border: 2px solid;
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  line-height: 27px;
+  margin-bottom: 14px;
+  margin-right: 5px;
+}
+
+
+.post-img-next {
+  height: 200px;
+  overflow: hidden;
+}
+
+
+.post-img-next img {
+  width: 100%;
+  height: auto;
+  margin-top: -200px;
+}
+
+.next-post {
+  position: absolute;
+  margin-top: -44px;
+  right: 0;
+  margin-right: 250px;
+  background-color: #f5821f;
+  padding: 10px;
+  border:2px solid #f5821f;
+}
+
+.next-post a {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Century Gothic Bold';
+}
+
+
+
+.prev-box img {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -250px;
+}
+
+
+.prev-box {
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  background-color: #888182;
+}
+
+.prev-box img {
+  width: 100%;
+  overflow: hidden;
+  margin-top: -250px;
+  position: relative;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.prev-box a {
+  position: relative;
+  z-index: 33;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+  top: 100px;
+  font-size: 30px;
+  font-family: 'Century Gothic Bold';
+}
+
+.next-link-f a {
+  float: right;
+  background-color: #f5821f;
+  color: #fff;
+  margin-right: 250px;
+  padding: 13px;
+  font-family: 'Century Gothic Bold';
+}
+
 
 /********************************************************************************************* 
 

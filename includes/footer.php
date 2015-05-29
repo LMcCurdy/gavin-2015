@@ -115,23 +115,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- SCRIPTS **********************************************-->
 
 
@@ -147,6 +130,15 @@
 $().ready(function() {
 $("#contactForm").validate();
 });
+</script>
+
+<script type='text/javascript'>
+(function (d, t) {
+  var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
+  bh.type = 'text/javascript';
+  bh.src = '//www.bugherd.com/sidebarv2.js?apikey=fxkqqx64mk3xsaip7ppqda';
+  s.parentNode.insertBefore(bh, s);
+  })(document, 'script');
 </script>
 
 <!-- html5.js for IE less than 9 -->

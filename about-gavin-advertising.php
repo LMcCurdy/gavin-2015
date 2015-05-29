@@ -1,7 +1,7 @@
 <?php
 // Define variables for SEO
 $pageTitle = 'About Us | Gavin Advertising'; // Title of page //
-$pageDescription = ''; // Title of page //
+$pageDescription = 'Gavin Advertising intends to put York City on the creativity map with new thinking the best-of-the-best talent & game-changing brands.'; // Title of page //
 $pageCanonical = 'http://www.gavinadvertising.com/about-gavin-advertising.php';
 // If we don't want the search engines to see our website just yet
 //$pageRobots = 'noindex,nofollow';

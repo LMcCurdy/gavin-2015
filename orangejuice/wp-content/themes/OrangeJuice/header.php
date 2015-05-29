@@ -47,7 +47,7 @@
             <a target="_social" href="//www.facebook.com/GavinAdvertising" ><i class="fa fa-facebook"></i></a>
             <a target="_social" href="//www.linkedin.com/company/gavin-advertising"><i class="fa fa-linkedin"></i></a>
             <a target="_social" href="//plus.google.com/+GavinAdvertisingYork/posts"><i class="fa fa-google-plus"></i></a>
-            <a target="_social" href="<?php echo $siteURL; ?>blog/"><i class="fa fa-comments-o"></i></a>
+            <a href="<?php echo $siteURL; ?>orangejuice/"><i class="fa fa-comments-o"></i></a>
             <a target="_social" href="//www.pinterest.com/gavinadv/"><i class="fa fa-pinterest-p"></i></a>
             <a target="_social" href="//instagram.com/gavinadvertising"><i class="fa fa-instagram"></i></a>
         </div>

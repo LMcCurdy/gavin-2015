@@ -1,7 +1,7 @@
 <?php
 // Define variables for SEO
-$pageTitle = 'Thank You From Gavin Advertising'; // Title of page //
-$pageDescription = ''; // Title of page //
+$pageTitle = 'Thank You | Gavin Advertising'; // Title of page //
+$pageDescription = 'Thanks for reaching out to Gavin Advertising! We look forward to working with you on your next project!'; // Title of page //
 $pageCanonical = 'http://www.gavinadvertising.com/thank-you.php';
 // If we don't want the search engines to see our website just yet
 //$pageRobots = 'noindex,nofollow';

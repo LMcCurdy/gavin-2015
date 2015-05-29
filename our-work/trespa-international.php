@@ -1,7 +1,7 @@
 <?php
 // Define variables for SEO
-$pageTitle = 'Trespa International | Gavin Adverting'; // Title of page //
-$pageDescription = ''; // Title of page //
+$pageTitle = 'Sales and Marketing Strategy Trespa Case Study | Gavin Advertising'; // Title of page //
+$pageDescription = 'When Trespa International was looking to establish a consistent sales and marketing message throughout its North America division, it turned to the Gavin team.'; // Title of page //
 $pageCanonical = 'http://www.gavinadvertising.com/our-work/trespa-international.php';
 // If we don't want the search engines to see our website just yet
 //$pageRobots = 'noindex,nofollow';

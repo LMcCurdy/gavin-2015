@@ -46,6 +46,12 @@
 if ( has_post_thumbnail() ) {
   the_post_thumbnail();
 } ?>
+
+<div class="social-share">
+<a href="https://twitter.com/intent/tweet?url=<?php the_permalink();?>&via=gavinadv&text=I%20just%20read%20this%20awesome%20article%20on%20Orange%20Juice%20a%20blog%20by%20Gavin"><i class="fa fa-twitter"></i></a>
+<a href="http://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php the_permalink();?>&p[images][0]=<?php echo $imgsrc; ?> &p[title]=<?php the_title(); ?> &p[summary]=<?php the_title(); ?>"  onclick="window.open('http://www.facebook.com/sharer/sharer.php?s=100&p[url]=<?php the_permalink();?>&p[images][0]=<?php echo $imgsrc; ?> &p[title]=<?php the_title(); ?> &p[summary]=<?php the_title(); ?>', 'newwindow', 'width=600, height=600'); return false;"><i class="fa fa-facebook"></i></a>
+</div>
+
 </div>
     <p class="post-title">
         <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
