@@ -13,7 +13,7 @@
   c-36.1,0-98.2-4.3-98.2-54.2c0-19.5,11.6-34.7,26.7-46.2l117.7,17.3c65,7.2,71.5,14.4,71.5,35.4
   C305.9,551.8,219.3,553.3,188.2,553.3z"/>
 </svg></span>e Juice</h1>
-    <h2>eat. sleep. create. repeat</h2>
+    <h2>eat. sleep. create. repeat.</h2>
 
     </div>
 
@@ -61,7 +61,9 @@ if ( has_post_thumbnail() ) {
     </div>
   <?php endwhile; wp_reset_query(); ?>
 <?php else: ?>
-  <p>No posts found</p>
+  <div class="wrap">
+  <p>Whoops! There are currently no post within this category. You better believe our writers are hard at work to bring you new and fresh content. Check back again soon.</p>
+  </div>
 <?php endif; ?>
 </div>
 
@@ -79,7 +81,7 @@ if ( has_post_thumbnail() ) {
 
 <div class="team clearfix">
 <div id="driving-action" class="grid-12">
-    <h3>Keep up with what’s going down in the<span>social media world</span></h3>
+    <h3>Check Us Out<span>Socially</span></h3>
 </div>
 </div>
 <div class="tall-social">

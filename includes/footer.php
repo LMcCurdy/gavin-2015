@@ -36,19 +36,21 @@
 </div>
 
 <div class="grid-4 padding-f blog-feed">
-<h4>Recent Blog Post</h4>
+<h4>Recent Blog Posts</h4>
 
 <!-- DELETE THE HTML BELOW WHEN THE SITE GOES LIVE & UNCOMMENT THE RSS PHP CODE -->
-
+<div class="clearfix">
 <p><strong><a href="#" class="title-link">Microsoft Does Cool Things To W10</a></strong>
 <span>With the official announcement of Windows 10 and a bunch of new products Microsoft is still worse than Apple. Last year Apple made...</span>
-<a href="#">Read More</a>
+<a href="#" class="border">Read More</a>
 </p>
-
+</div>
+<div class="clearfix">
 <p><strong><a href="#" class="title-link">Gavin Hires Awesome Magician</a></strong>
 <span>Gavin hired another cool web developer last week. Little did they know he was an awesome magician who, on a daily basis would perform card tricks...</span>
-<a href="#">Read More</a>
+<a href="#" class="border">Read More</a>
 </p>
+</div>
 
 
 
@@ -71,7 +73,7 @@
 		$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
 		$link = $feed[$x]['link'];
 		$description = $feed[$x]['desc'];
-		echo '<p><strong>'.$title.'</strong>';
+		echo '<p><strong><a href="'.$link.'" class="title-link">'.$title.'</a></strong>';
 		echo '<span>'.$description.'</span>';
 		echo '<a href="'.$link.'" title="'.$title.'">Read More</a></p>';
 	}
@@ -81,15 +83,6 @@
 <div class="grid-4 padding-f social">
 <h4>Find Us on Social Media</h4>
 
-
-<div class="social-media-icons">
-<a href="#"><i class="fa fa-twitter"></i> @gavinadv</a>
-<a href="#"><i class="fa fa-facebook"></i> facebook.com/gavinadvertising</a>
-<a href="#"><i class="fa fa-linkedin"></i> linkedin.com/company/gavin-advertising</a>
-<a href="#"><i class="fa fa-google-plus"></i> plus.google.com/+GavinAdvertisingYork</a>
-<a href="#"><i class="fa fa-instagram"></i> @gavinadvertising</a>
-<a href="#"><i class="fa fa-pinterest"></i> gavin advertising</a>
-</div>
 
 <div class="social-media-icons-mobile">
 <a href="#"><i class="fa fa-twitter"></i></a>
@@ -109,7 +102,7 @@
 
 <div class="second-footer">
 <div class="wrap">
-<p><span class="f-sec">328 W. Market St, York PA 17401</span><span class="delete-sec"> | </span><span class="f-sec">(717) 848-8155</span><span class="delete-sec"> | </span><span class="f-sec">&copy; <?php echo date('Y'); ?> Gavin Advertising.</span><span class="f-sec">All Rights Reserved</span></p>
+<p><span class="f-sec">328 W. Market St, York PA 17401</span><span class="delete-sec"> | </span><span class="f-sec">(717) 848-8155</span><span class="delete-sec"> | </span><span class="f-sec">&copy; <?php echo date('Y'); ?> Gavin&trade; Advertising. </span><span class="f-sec">All Rights Reserved</span><span class="delete-sec"> | </span><span class="f-sec"><a href="">Privacy Policy</a></span></p>
 </div>
 </div>
 
@@ -126,6 +119,21 @@
 <script src="<?php echo $siteURL; ?>assets/js/scripts.js"></script>
 <script src="<?php echo $siteURL; ?>assets/js/validate.js"></script>
 
+<!-- Add mousewheel plugin (this is optional) -->
+<script type="text/javascript" src="<?php echo $siteURL; ?>assets/js/lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/js/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+<script type="text/javascript" src="<?php echo $siteURL; ?>assets/js/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+<!-- Optionally add helpers - button, thumbnail and/or media -->
+<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/js/source/helpers/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+<script type="text/javascript" src="<?php echo $siteURL; ?>assets/js/source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+<script type="text/javascript" src="<?php echo $siteURL; ?>assets/js/source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+
+<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/js/source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+<script type="text/javascript" src="<?php echo $siteURL; ?>assets/js/source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
  <script>
 $().ready(function() {
 $("#contactForm").validate();
@@ -139,6 +147,12 @@ $("#contactForm").validate();
   bh.src = '//www.bugherd.com/sidebarv2.js?apikey=fxkqqx64mk3xsaip7ppqda';
   s.parentNode.insertBefore(bh, s);
   })(document, 'script');
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
 </script>
 
 <!-- html5.js for IE less than 9 -->

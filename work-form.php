@@ -6,9 +6,7 @@ $company = $_POST['company'];
 $email = $_POST['email']; 
 $phone = $_POST['phone']; 
 $besttime = $_POST['besttime']; 
-$startdate = $_POST['startdate']; 
-$enddate = $_POST['enddate']; 
-$projectdetails = $_POST['projectdetails'];  
+
 
 
 	$subject = "Work With Gavin - " . stripslashes($_POST['firstname']) ."";
@@ -88,18 +86,6 @@ $projectdetails = $_POST['projectdetails'];
 		$body .= '<li>'.$project .'</li>';
 	}
 	$body .= '</ul>';
-	
-	$body .= "Project Goals:";
-	
-	$body .= '<ul>';
-	foreach($_POST['goals'] as $goals) {
-		$body .= '<li>'.$goals .'</li>';
-	}
-	$body .= '</ul>';
-	
-	$body .= "Start Date: " . $startdate ."<br /> ";
-	$body .= "End Date: " . $enddate ."<br /> ";
-	$body .= "Details: " . $projectdetails ."<br /> ";
 
 	
 	//$body .= "<div style='width:100%;display:inline-block;height:1px;background:#f9f9f9;margin:5px auto;'></div>";

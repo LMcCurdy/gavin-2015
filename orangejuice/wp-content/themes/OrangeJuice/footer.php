@@ -38,20 +38,22 @@
 </div>
 
 <div class="grid-4 padding-f blog-feed">
-<h4>Recent Blog Post</h4>
+<h4>Recent Blog Posts</h4>
 
 <!-- DELETE THE HTML BELOW WHEN THE SITE GOES LIVE & UNCOMMENT THE RSS PHP CODE -->
 
+<div class="clearfix">
 <p><strong><a href="#" class="title-link">Microsoft Does Cool Things To W10</a></strong>
 <span>With the official announcement of Windows 10 and a bunch of new products Microsoft is still worse than Apple. Last year Apple made...</span>
-<a href="#">Read More</a>
+<a href="#" class="border">Read More</a>
 </p>
-
+</div>
+<div class="clearfix">
 <p><strong><a href="#" class="title-link">Gavin Hires Awesome Magician</a></strong>
 <span>Gavin hired another cool web developer last week. Little did they know he was an awesome magician who, on a daily basis would perform card tricks...</span>
-<a href="#">Read More</a>
+<a href="#" class="border">Read More</a>
 </p>
-
+</div>
 
 
 
@@ -83,16 +85,6 @@
 <div class="grid-4 padding-f social">
 <h4>Find Us on Social Media</h4>
 
-
-<div class="social-media-icons">
-<a href="#"><i class="fa fa-twitter"></i> @gavinadv</a>
-<a href="#"><i class="fa fa-facebook"></i> facebook.com/gavinadvertising</a>
-<a href="#"><i class="fa fa-linkedin"></i> linkedin.com/company/gavin-advertising</a>
-<a href="#"><i class="fa fa-google-plus"></i> plus.google.com/+GavinAdvertisingYork</a>
-<a href="#"><i class="fa fa-instagram"></i> @gavinadvertising</a>
-<a href="#"><i class="fa fa-pinterest"></i> gavin advertising</a>
-</div>
-
 <div class="social-media-icons-mobile">
 <a href="#"><i class="fa fa-twitter"></i></a>
 <a href="#"><i class="fa fa-facebook"></i></a>
@@ -111,7 +103,7 @@
 
 <div class="second-footer">
 <div class="wrap">
-<p><span class="f-sec">328 W. Market St, York PA 17401</span><span class="delete-sec"> | </span><span class="f-sec">(717) 848-8155</span><span class="delete-sec"> | </span><span class="f-sec">&copy; <?php echo date('Y'); ?> Gavin Advertising.</span><span class="f-sec">All Rights Reserved</span></p>
+<p><span class="f-sec">328 W. Market St, York PA 17401</span><span class="delete-sec"> | </span><span class="f-sec">(717) 848-8155</span><span class="delete-sec"> | </span><span class="f-sec">&copy; <?php echo date('Y'); ?> Gavin&trade; Advertising. </span><span class="f-sec">All Rights Reserved</span><span class="delete-sec"> | </span><span class="f-sec"><a href="">Privacy Policy</a></span></p>
 </div>
 </div>
 

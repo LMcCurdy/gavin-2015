@@ -1,4 +1,22 @@
 <?php get_header(); ?>
+<div class="cat-bar clearfix">
+<?php 
+    $args = array(
+  'hide_empty'         => 0,
+  'use_desc_for_title' => 1,
+  'style'              => 'none',
+  'title_li'           => __( '' )
+    );
+    wp_list_categories( $args ); 
+?>
+
+<form method="get" action="<?php bloginfo('url'); ?>/">
+<button type="submit" class="btn btn-success">
+                <i class="fa fa-search"></i>
+            </button>
+  <input name="s" type="text" placeholder="Search" />
+</form>
+</div>
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 <div class="featured-header">

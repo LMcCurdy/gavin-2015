@@ -16,10 +16,11 @@ include('includes/header.php') // Include header file //
 			<br />
 			<h2>How it should be.</h2>
 		</div>
-		<video autoplay loop poster="assets/video/placeholder.png" width="100%" height="auto">
+		<img src="assets/img/vid-rep.jpg" class="vid-replace" alt="Gavin Advertising">
+		<video autoplay loop width="100%" height="auto">
 			<!-- .mp4 file for native playback in IE9+, Firefox, Chrome, Safari and most mobile browsers -->
-			<source src="assets/video/placeholder.mp4" type="video/mp4" />
-			<source src="assets/video/placeholder.webmhd.webm" type="video/webm" />
+			<source src="assets/video/home-<?php echo(mt_rand(1,2)); ?>.mp4" type="video/mp4" />
+			<source src="assets/video/home-<?php echo(mt_rand(1,2)); ?>.webm" type="video/webm" />
 			<!-- flash fallback for IE6, IE7, IE8 and Opera -->
 			<object type="application/x-shockwave-flash"
 					data="assets/video/swf/flowplayer-3.2.18.swf" 
@@ -31,20 +32,21 @@ include('includes/header.php') // Include header file //
 				<!-- %2F = slash -->
 				<param name="flashVars"
 					   value="config={'playlist':['..%2Fplaceholder.png',
-									 {'url':'..%2Fplaceholder.mp4','autoPlay':true}]}" />
+									 {'url':'..%2Fhome-<?php echo(mt_rand(1,2)); ?>.mp4','autoPlay':true}]}" />
 				<!-- fallback image if flash fails -->
 				<img src="assets/video/placeholder.png" width="100%" height="auto" title="No Flash found" alt="" />
 			</object>
-		</video>			
+		</video>
+
 	</div>
 	<div id="driving-action" class="grid-12">
 		<div class="halfcircle"></div>
 		<div class="circle"><i class="fa fa-angle-double-down"></i></div>
-		<h2 class="fade-me">We&rsquo;re devoted to truth in branding <span>and driving action.</span></h2>
+		<h2 class="fade-me">We&rsquo;re devoted to truth in branding <span>and driving action</span></h2>
 		<hr class="fade-me" />
-		<p class="fade-me">We take a different approach to being an advertising, public relations and digital marketing agency. We believe in truth in branding and driving action. We thrive on influencing behavior in a complex media market with authentic messaging and strong calls to action. We live to excite clients with inventive solutions by always keeping our eye on the prize: measurable outcomes.</p>
+		<p class="fade-me">We take a different approach to being an advertising, public relations and digital marketing agency. We thrive on influencing behavior in a complex media market with authentic messaging and strong calls to action. We live to excite clients with inventive solutions and measurable outcomes.</p>
 		<div id="ll-button"></div>
-		<a href="#" class="button">Here&rsquo;s how we do it</a>
+		<a href="<?php echo $siteURL; ?>our-approach.php" class="button">Here&rsquo;s how we do it</a>
 <!-- 
 		<div style="clear: left; margin-top: 10px;">	
 <!~~ 
@@ -58,21 +60,21 @@ include('includes/header.php') // Include header file //
 	</div>
 	
 	<div id="blocks" class="clearfix">
-		<a href="#"><div id="martins"><div><hr /><p>Martin’s</p><span>All that and a bag of rolls</span></div></div></a>
-		<a href="#"><div id="trespa"><div><hr /><p>Trespa</p><span>Strategic Sales and Marketing</span></div></div></a>
-		<a href="#"><div id="truenorth"><div><hr /><p>True North Wellness</p><span>Branding for Healthcare Consumerism</span></div></div></a>
-		<a href="#"><div id="gig"><div><hr /><p>Glatfelter Insurance Group</p><span>Making complex simple</span></div></div></a>
-		<a href="#"><div id="acnb"><div><hr /><p>ACNB</p><span>More than transactions</span></div></div></a>
-		<a href="#"><div id="kyw"><div><hr /><p>Know Your Windows</p><span>Drive traffic. Get leads.</span></div></div></a>
-		<a href="#"><div id="mini"><div><hr /><p>MINI</p><span>More bite in the bark</span></div></div></a>
-		<a href="#"><div id="yti"><div><hr /><p>York Technical Institute</p><span>Too many hits to shake a diploma at</span></div></div></a>
-		<a href="#"><div id="peoplesbank"><div><hr /><p>PeoplesBank</p><span>Paying it Forward</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/martins.php"><div id="martins"><div><hr /><p>Martin's Potato Rolls</p><span>All That and a Bag of Rolls</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/trespa-international.php"><div id="trespa"><div><hr /><p>Trespa North America</p><span>Strategic Sales and Marketing</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/true-north-wellness.php"><div id="truenorth"><div><hr /><p>TrueNorth Wellness Services</p><span>Branding for Health Care Consumerism</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/glatfelter-insurance-group.php"><div id="gig"><div><hr /><p>Glatfelter Insurance Group</p><span>Making Complex Simple</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/adams-county-national-bank.php"><div id="acnb"><div><hr /><p>ACNB Bank</p><span>More than Transactions</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/know-your-windows.php"><div id="kyw"><div><hr /><p>AVI Marvin</p><span>Drive Traffic. Get Leads.</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/mini-of-baltimore.php"><div id="mini"><div><hr /><p>MINI of Baltimore</p><span>More Bite in Their Bark</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/york-technical-institute.php"><div id="yti"><div><hr /><p>YTI Career Institute</p><span>Too Many Hits to Shake a Diploma At</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/peoplesbank.php"><div id="peoplesbank"><div><hr /><p>PeoplesBank</p><span>Paying it Forward</span></div></div></a>
 	</div>
 
 
 <div id="more-work">
 		<div id="ll-button-work"></div>
-		<a href="gavin-awards.php" class="button">View Our Awards</a>
+		<a href="<?php echo $siteURL; ?>orangejuice/category/awards" class="button">View Our Awards</a>
 </div>
 
 
@@ -88,7 +90,7 @@ include('includes/header.php') // Include header file //
 <div id="target-draw" class="draw-icon-home">
 <div id="target"></div>
 </div>
-<h3>Market Strategy</h3>
+<h3><a href="<?php echo $siteURL; ?>our-work/">Market Strategy</a></h3>
 <p>We investigate market opportunities for growth and expansion. From focus groups to secondary research and team-building activities, our team crafts effective messaging platforms with complete implementation plans.</p>
 </div>
 
@@ -96,7 +98,7 @@ include('includes/header.php') // Include header file //
 <div id="megaphone-draw" class="draw-icon-home">
 <div id="megaphone"></div>
 </div>
-<h3>Public Relations</h3>
+<h3><a href="<?php echo $siteURL; ?>our-work/">Public Relations</a></h3>
 <p>We build influence. With more than $10,000,000 in media equivalency value for our clients, our team is the go-to for brands looking to build trust through strategically consistent exposure across every media channel imaginable. </p>
 </div>
 
@@ -104,7 +106,7 @@ include('includes/header.php') // Include header file //
 <div id="pen-draw" class="draw-icon-home">
 <div id="pen"></div>
 </div>
-<h3>Branding &amp; Design</h3>
+<h3><a href="<?php echo $siteURL; ?>our-work/">Branding &amp; Design</a></h3>
 <p>In building brands from the ground up and creating an authentic brand experience, our design is more than just pretty — we craft creative that drives action.</p>
 </div>
 
@@ -112,8 +114,8 @@ include('includes/header.php') // Include header file //
 <div id="computer-draw" class="draw-icon-home">
 <div id="computer"></div>
 </div>
-<h3>Digital</h3>
-<p>Living digital is how we approach your brand’s online presence. We know digital media consumption is changing at a rapid pace, and our team designs around the user’s experience.</p>
+<h3><a href="<?php echo $siteURL; ?>our-work/">Digital</a></h3>
+<p>Living digital is how we approach your brand’s online presence. We know digital media consumption is changing at rapid pace, so we design for emerging trends in media consumption.</p>
 </div>
 
 </div><!-- End of what-we-do-container -->
@@ -132,7 +134,7 @@ include('includes/header.php') // Include header file //
 <div id="light-bulb-draw" class="draw-icon-home">
 <div id="light-bulb"></div>
 </div>
-<h3>Brand Building</h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php">Brand Building</a></h3>
 <p>We build brands with a comprehensive strategy to take your idea or product to target audiences. Beyond consumers, we think about investors, competition, future influences and market value.</p>
 </div>
 
@@ -140,7 +142,7 @@ include('includes/header.php') // Include header file //
 <div id="book-draw" class="draw-icon-home">
 <div id="book"></div>
 </div>
-<h3>Educational</h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php">Education</a></h3>
 <p>Educational options are wide ranging. Using public relations, messaging and targeted approaches, we move your organization forward in an aggressively evolving educational environment.</p>
 </div>
 
@@ -148,7 +150,7 @@ include('includes/header.php') // Include header file //
 <div id="doctor-draw" class="draw-icon-home">
 <div id="doctor"></div>
 </div>
-<h3>Healthcare</h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php">Health Care</a></h3>
 <p>From patients and referral sources to providers and donors, we work to engage your community, improve the health of those you serve and position your brand as a market leader.</p>
 </div>
 
@@ -156,7 +158,7 @@ include('includes/header.php') // Include header file //
 <div id="hammer-draw" class="draw-icon-home">
 <div id="hammer"></div>
 </div>
-<h3>Building Supply</h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php">Building Supply</a></h3>
 <p>It’s a complex supply channel, and we know all your segments by heart. Our team builds a plan for the realities of how your target audience consumes content and makes decisions, from the job site to the trade show.</p>
 </div>
 
@@ -164,7 +166,7 @@ include('includes/header.php') // Include header file //
 <div id="box-draw" class="draw-icon-home">
 <div id="box"></div>
 </div>
-<h3>Consumer Packaged Goods</h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php">Consumer Packaged Goods</a></h3>
 <p>Get it in the cart. Whether it’s the grocery cart or the digital shopping cart, we know CPG. We build engaging digital and brick-and-mortar approaches that drive sales.</p>
 </div>
 
@@ -172,8 +174,8 @@ include('includes/header.php') // Include header file //
 <div id="paper-draw" class="draw-icon-home">
 <div id="paper"></div>
 </div>
-<h3>Work With Us!</h3>
-<p>We thrive on influencing behavior. Live to excite clients with inventive solutions. And always keep our eye on the prize: measurable outcomes. We work to pinpoint our client’s exception difference and then amplify it with exceptional, well-thought-out creative that drives action.</p>
+<h3><a href="<?php echo $siteURL; ?>work-with-us.php">Work With Us!<a></h3>
+<p>We work to pinpoint our client’s difference and then amplify it with exceptional, well-thought-out creative that drives action.</p>
 </div>
 
 </div><!-- End of experts -->

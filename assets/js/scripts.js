@@ -233,15 +233,6 @@ $(window).scroll(function() {
 	});
 
 
-$( ".mandy-bio" ).click(function( event ) {
-  event.preventDefault();
-
-  });
-
-	$(".mandy-bio").click(function(){
-        $("#mandy-bio-box").toggle(200);
-    });
-
 
 
 // Fade in divs consecutively (optional delay)
@@ -254,28 +245,23 @@ $(".icon").delay(800).each(function(index) {$(this).delay(delayBetweenEach*index
 
 
  
- $("#work-slide").owlCarousel({
- 
-      autoPlay: 3000, //Set AutoPlay to 3 seconds
- 
-      items : 3,
-      itemsDesktop : [1199,3],
-      itemsDesktopSmall : [979,3],
-      pagination : false,
-      navigation : true,
-      navigationText : ["<i class=\"fa caret fa-caret-left\"></i>","<i class=\"fa caret fa-caret-right\"></i>"]
- 
-  });
+
  
 
 $('.videoWrapper').click(function () {
     $('.videoWrapper iframe').css("pointer-events", "auto");
 });
 
-    $('.menu li').click(function(e) {
+    $('#icon-wrap li').click(function(e) {
         e.preventDefault();
-        $('.menu li').removeClass('active');
+        $('#icon-wrap li').removeClass('active');
         $(this).addClass('active');
+    });
+
+        $('#icon-wrap-e li').click(function(e) {
+        e.preventDefault();
+        $('#icon-wrap-e li').removeClass('active-e');
+        $(this).addClass('active-e');
     });
 
        
@@ -298,5 +284,25 @@ var buttonInfo = $(this).data('info');
 $('#video').attr('class','expertise-top');
 $('div#video').addClass(buttonInfo);
 });
+
+ $("#work-slide").owlCarousel({
+ 
+      autoPlay: false, //Set AutoPlay to 3 seconds
+ 
+      items : 3,
+      itemsDesktop : [1199,3],
+      itemsDesktopSmall : [979,3],
+      pagination : false,
+      navigation : true,
+      navigationText : ["<i class=\"fa caret fa-caret-left\"></i>","<i class=\"fa caret fa-caret-right\"></i>"]
+ 
+  });
+
+
+
+
+
+
+
 
 });

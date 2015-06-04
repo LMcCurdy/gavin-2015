@@ -29,7 +29,7 @@ include('includes/header.php') // Include header file //
 <input type="text" name="phone" onKeyPress="javascript:return maskInput(this.value,this,'3,7','-');" onblur="javascript:return maskInput(this.value,this,'3,7','-');" maxlength="12" placeholder="Phone Number*" required />
   
 
-<textarea name="comments" cols="" rows="3" placeholder="Tell Us Like It Is!"></textarea>
+<textarea name="comments" cols="" rows="3" placeholder="Leave your comments, questions, or concerns here."></textarea>
 
   <input type="captcha" name="captcha" class="captcha_input" placeholder="2 + 2 = ?*" captcha /> 
   

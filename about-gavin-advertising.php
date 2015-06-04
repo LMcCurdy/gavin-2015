@@ -11,7 +11,7 @@ include('includes/header.php') // Include header file //
 	<?php include('includes/nav.php'); ?>
 	
 <div id="introduction" class="intro-no">
-<h1><span>Gavin Advertising's</span>History and Home</h1>
+<h1><span>Gavin Advertising</span>History and Home</h1>
 <hr />
 <p class="fade-me">Welcome to Downtown York City.<br />We’re not new, we’re fresh. Like creative flirtation.</p>
 </div>
@@ -25,8 +25,10 @@ include('includes/header.php') // Include header file //
 
 <div class="grid-6">
 <div class="small-wrap-right">
-<p class="piggly-wiggly">It was a Piggly Wiggly in 1921, a midcentury modern toy store in ’55, an art gallery in ’98 and a furniture store until 2010.
-<span>Now it’s home.</span></p>
+<p class="piggly-wiggly">In 1901, 328 W. Market St was the H. Westley Furniture Company, in 1953 it merged into the John A. Walterstorf Building. In the 90's it was a sewing machine repair shop. Today
+<span>it’s home.</span></p>
+
+
 </div>
 </div>
 
@@ -66,35 +68,37 @@ include('includes/header.php') // Include header file //
 
 
 <div class="all-over">
-<p class="fade-me"><span>We work with clients all over the country.</span><br />From Maine to Georgia, and as far away as Holland you can find our clients, but York is home base for us. We intend to put this town on the creativity map, with new thinking and a team that attracts the best talent and game-changing brands.</p><p class="fade-me">
+<p class="fade-me"><span>We work with clients all over the world.</span><br />From Maine to Georgia, and as far away as Holland you can find our clients, but York is home base for us. We intend to put this town on the creativity map, with new thinking and a team that attracts the best talent and game-changing brands.</p><p class="fade-me">
 Little city. Big idea people. Main Street is going to give Madison Avenue a
 run for its money.</p>
 </div>
 
-<div class="map-overlay">
+<div class="baby-blue">
+<a href="<?php echo $siteURL; ?>i-love-york-city.php">Why We Chose York</a>
+</div>
 
+<div class="contact-home clearfix">
+
+<div class="grid-6">
 <div class="videoWrapper">
 <iframe src="https://mapsengine.google.com/map/u/0/embed?mid=z8r2UX_SSKu8.k0UKYJNb_irs" width="640" height="480"></iframe>
-<div class="map-over">
+</div>
+</div>
+
+<div class="grid-6 footer-contact">
 <div class="contact-gavin">
 <p>328 W. Market St.<br />York PA 17401</p>
 <p>O: (717) 848-8155<br />F: (717) 855-2292</p>
-<p>gavin@gavinadv.com</p>
+<p><a href="mailto:gavin@gavinadv.com">gavin@gavinadv.com</a></p>
 
 <div id="g-work">
-		<div id="abox"></div>
-		<a href="#" class="button">Work With Gavin</a>
-</div>
-
-<a href="#" class="button mobile-button">Work With Gavin</a>
+		<div id="abox" class="abox"></div>
+		<a href="<?php echo $siteURL; ?>work-with-us.php" class="button">Work With Gavin</a>
 </div>
 </div>
 </div>
 
-
-
 </div>
-
 
 
 
@@ -102,7 +106,7 @@ run for its money.</p>
 <div>
 <p><span>Join Gavin In</span>Our Next Chapter</p>
 <hr />
-<a class="button" href="#">Begin Your Project</a>
+<a class="button" href="<?php echo $siteURL; ?>work-with-us.php">Let’s Get Started</a>
 </div>
 </div>
 

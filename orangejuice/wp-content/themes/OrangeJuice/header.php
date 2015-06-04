@@ -58,7 +58,7 @@
                 
                 <li><a href="<?php echo $siteURL; ?>our-work/"><span>Our</span> Work</a></li>
                 <li><a href="<?php echo $siteURL; ?>expertise.php">Expertise</a></li>
-                <li><a href="#">Approach</a></li>
+                <li><a href="<?php echo $siteURL; ?>our-approach.php">Approach</a></li>
                 <li><a href="<?php echo $siteURL; ?>meet-the-team.php">Team</a></li>
                 <li><a href="<?php echo $siteURL; ?>about-gavin-advertising.php">About</a></li>
                 <li><a href="<?php echo $siteURL; ?>contact-us.php">Contact</a></li>
