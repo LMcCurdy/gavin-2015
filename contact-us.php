@@ -31,7 +31,8 @@ include('includes/header.php') // Include header file //
 
 <textarea name="comments" cols="" rows="3" placeholder="Leave your comments, questions, or concerns here."></textarea>
 
-  <input type="captcha" name="captcha" class="captcha_input" placeholder="2 + 2 = ?*" captcha /> 
+  <input type="captcha" name="captcha" class="captcha_input" placeholder="Prove you're human : 2 + 2 = ?*" captcha /> 
+
   
 <div class="message"><div class="alert"></div></div> 
 <input type="submit" name="Submit" value="Submit" /> 
@@ -39,6 +40,7 @@ include('includes/header.php') // Include header file //
 
   
 </form>
+  <p class="small-contact">*By clicking submit you are agreeing to Gavin Advertising's <a href="privacy-policy.php">Privacy Policy</a></p>
 </div>
 </div>
 
@@ -55,8 +57,8 @@ include('includes/header.php') // Include header file //
 
 <div class="grid-6 footer-contact">
 <div class="contact-gavin">
-<p>328 W. Market St.<br />York PA 17401</p>
-<p>O: (717) 848-8155<br />F: (717) 855-2292</p>
+<p><a href="https://www.google.com/maps?daddr=328+West+Market+Street+York+PA+17401" target="_blank">328 W. Market St.<br />York PA 17401</a></p>
+<p>O: (717) 848-8155</p>
 <p><a href="mailto:gavin@gavinadv.com">gavin@gavinadv.com</a></p>
 
 <div id="g-work">

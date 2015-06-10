@@ -25,7 +25,7 @@ include('includes/header.php') // Include header file //
 
 <div class="grid-6">
 <div class="small-wrap-right">
-<p class="piggly-wiggly">In 1901, 328 W. Market St was the H. Westley Furniture Company, in 1953 it merged into the John A. Walterstorf Building. In the 90's it was a sewing machine repair shop. Today
+<p class="piggly-wiggly">In 1901, 328 W. Market St was the H. Westley Furniture Company, in 1953 it merged into the John A. Waltersdorf Building. In the 90's it was a sewing machine repair shop and an antique store. Today,
 <span>it’s home.</span></p>
 
 
@@ -87,8 +87,8 @@ run for its money.</p>
 
 <div class="grid-6 footer-contact">
 <div class="contact-gavin">
-<p>328 W. Market St.<br />York PA 17401</p>
-<p>O: (717) 848-8155<br />F: (717) 855-2292</p>
+<p><a href="https://www.google.com/maps?daddr=328+West+Market+Street+York+PA+17401" target="_blank">328 W. Market St.<br />York PA 17401</a></p>
+<p>O: (717) 848-8155</p>
 <p><a href="mailto:gavin@gavinadv.com">gavin@gavinadv.com</a></p>
 
 <div id="g-work">

@@ -11,7 +11,7 @@ include('includes/header.php') // Include header file //
 	<?php include('includes/nav.php'); ?>
 	
 <div id="introduction" class="intro-no approach-head">
-<h1><span>Hard Work Pays Off and Here’s How We Do It;</span>The Gavin Approach</h1>
+<h1><span>Hard Work Pays Off and Here’s How We Do It:</span>The Gavin Approach</h1>
 </div>
 
 
@@ -26,39 +26,115 @@ truth in branding and driving action.</h2>
 <p class="proc">Our Proccess Begins With<span>Discovery</span></p>
 </div>
 
-<div class="lead clearfix">
-<div class="grid-6 investigate">
-<div class="googles"></div>
-<p class="step-2">We investigate your market and audiences, digging into marketing opportunities, audience perception and the challenges ahead.</p>
-</div>
-
-<div class="grid-6">
-<p class="step-1">We work with your leadership team to understand your organization’s immediate and long-range goals. With these goals in mind, we help your team develop a clear vision through creative brandstorming sessions.</p>
-
-<div class="light-bulb-approach"></div>
-</div>
-
-</div>
-
-
-<div class="empower clearfix">
-<div class="grid-6 communicate">
-<p class="step-3">As your organization’s message evolves, we arm your team with a <strong>brand-messaging</strong> platform designed to
-<span>Lead,<br/>
-Empower &amp; <br/>Communicate.</span></p>
-</div>
-
-<div class="grid-6 inspire">
-<p>Incorporation</p>
-<hr />
-<p>We craft a <strong>comprehensive strategy</strong> to set the course to gain influence and reposition your brand in the marketplace, using your company’s refocused, authentic message, vision and goals.</p>
+<!-- RESPONSIVE TABLE GOES HERE -->
+<table class="starting">
+	<thead>
+	<tr>
+		<th>&nbsp;</th>
+		<th>&nbsp;</th>
+		<th class="topper">&nbsp;</th>
+		<th>&nbsp;</th>	
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+<td></td>
+<td class="bronco"><img src="assets/img/glasses.svg"></td>
+<td class="topper">We work with your leadership team to understand your organization’s immediate and long-range goals. With these goals in mind, we help your team develop a clear vision through creative brandstorming sessions. </td>
+<td></td>
+	</tr>
+	
+			<tr>
+<td></td>
+<td class="invest">We investigate your market and audiences, digging into marketing opportunities, audience perception and the challenges ahead.</td>
+<td class="lamps"><img src="assets/img/lamp.svg"></td>
+<td></td>
+	</tr>
+			<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+	</tr>
+			<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+	</tr>
+			<tr>
+<td></td>
+<td><p class="step-3">As your organization’s message evolves, we arm your team with a <strong>brand-messaging</strong> platform designed to
+<span>Lead,<br>
+Empower &amp; <br>Communicate.</span></p></td>
+<td class="lefter"></td>
+<td></td>
+	</tr>
+			<tr>
+<td></td>
+<td></td>
+<td class="lefter bertum"><div class="inspire">
+<p class="games">Game Plan</p>
+<hr>
+<p>Our team crafts a comprehensive <strong>strategy</strong> to set the course to gain influence and reposition your brand in the marketplace, using your company’s refocused, authentic message, vision and goals.</p>
 
 <div class="message-app"></div>
 <div class="eye-app"></div>
 <div class="flag-app"></div>
+</div></td>
+<td></td>
+	</tr>
+			<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+	</tr>
+			<tr>
+<td></td>
+<td></td>
+<td class="lefter"></td>
+<td class="bottom-cell"></td>
+	</tr>
+	</tbody>
+</table>
+
+<!-- RESPONSIVE TABLE GOES HERE -->
+<!-- MOBILE TO REPLACE RESPONSIVE TABLE -->
+<div class="mobile-approach clearfix">
+
+<div class="grid-6 border-patrol glass">
+<img src="assets/img/glasses.svg">
+<p>We investigate your market and audiences, digging into marketing opportunities, audience perception and the challenges ahead.</p>
 </div>
 
+
+<div class="grid-6 border-patrol bulbz">
+<img src="assets/img/lamp.svg">
+<p>We work with your leadership team to understand your organization’s immediate and long-range goals. With these goals in mind, we help your team develop a clear vision through creative brandstorming sessions.</p>
 </div>
+
+<div class="clearfix">
+<p class="step-3">As your organization’s message evolves, we arm your team with a <strong>brand-messaging</strong> platform designed to
+<span>Lead,<br>
+Empower &amp; <br>Communicate.</span></p>
+</div>
+
+<div class="inspire">
+<p class="games">Game Plan</p>
+<hr>
+<p>Our team crafts a comprehensive <strong>strategy</strong> to set the course to gain influence and reposition your brand in the marketplace, using your company’s refocused, authentic message, vision and goals.</p>
+<div class="message-app"></div>
+<div class="eye-app"></div>
+<div class="flag-app"></div>
+
+</div>
+
+
+
+
+</div>
+<!-- MOBILE TO REPLACE RESPONSIVE TABLE -->
 
 <div class="project-build clearfix">
 <div class="grid-6 standards-left">
@@ -66,33 +142,33 @@ Empower &amp; <br/>Communicate.</span></p>
 <div class="standards-app">
 <h3>Standards</h3>
 <hr/>
-<p>Developing and implementing a specific way to communicate your voice to your audience.
+<p>Establishing visual consistency for your brand ensures increased mindshare through repetition.
 </p>
 </div>
 
 <div class="typography-app">
 <h3>Typography</h3>
 <hr/>
-<p>Sticking with a primary and complimentary type face is how we finalize and bring your brand together.
+<p>Using primary and complimentary typefaces brings details together for a high-impact message.
 </p>
 </div>
 
 
 </div>
 <p class="center-of-attention">From there, we build your brand assets. Our team establishes how your newly defined brand messaging and strategy is communicated visually through logos and themes that carry your message to market.</p>
-<div class="grid-6 standards-left">
+<div class="grid-6 standards-left right-col">
 
 <div class="logo-app">
-<h3>Logo</h3>
+<h3>Logotype</h3>
 <hr/>
-<p>Wether we utilize your existing logo, revamp an old one or design something fresh, your logo is essential to who you are as a company.
+<p>Whether we use your existing logo, revamp an old one or design something fresh, a logo is essential to your brand story.
 </p>
 </div>
 
 <div class="color-app">
 <h3>Color</h3>
 <hr/>
-<p>Color can go a long way when speaking to your audience. Selecting, and perfecting, specific colors for your brand is how we make it memorable.
+<p>Visual interest is reinforced by the proper color selection.
 </p>
 </div>
 
@@ -109,13 +185,13 @@ Empower &amp; <br/>Communicate.</span></p>
 <div class="next-level clearfix">
 <div class="grid-6 brand-next">
 <div class="brand-wrap">
-<p>Taking your brand<br/> to the next level</p>
+<p class="games">Time to Share with Others</p>
 <hr />
-<p>Moving beyond pretty designs, we develop <strong>marketing tools</strong> based on form and function. Our creative team works to visually transfer and reinforce your message across all media platforms within precise target audience segments. We design these tools to combine beauty and brains, bringing the entire story together from strategy to implementation.</p>
+<p>Moving beyond pretty designs, we develop marketing tools based on form and function. Our creative team works to visually transfer and reinforce your message across all media platforms within precise target audience segments. We design these tools to combine beauty and brains, bringing the entire story together from strategy to implementation.</p>
 </div>
 </div>
 
-<div class="grid-6">
+<div class="grid-6 social-wrapper">
 
 <div class="social-app"><p>Social</p></div>
 <div class="pr-app"><p>Public Relations</p></div>
@@ -128,42 +204,107 @@ Empower &amp; <br/>Communicate.</span></p>
 
 
 <div class="case-study-app clearfix">
-<div class="grid-6"><img src="assets/img/trespa-app.png" height="auto" width="100%"></div>
+<div class="grid-6"><img src="assets/img/martin-roll.png" class="roller"></div>
 <div class="grid-6">
-	<p class="testimonial">We worked with Trespa to assess its entire sales channel, from manufacturer to fabrication to the property owner to ensure that the new marketing approach.</p>
+	<p class="testimonial">"Finding a marketing partner who understands our business model and the dynamics within our distribution channel was important as we worked on a sales and marketing plan designed for smart growth. Gavin brings senior level of hands-on communications and marketing strategy—for both internal and external communications—that makes them an asset within the C-suite."<span>Scott Heintzleman<br/>
+Martin’s Famous Pastry Shoppe, Inc. (Potato Rolls)</span>
+</p>
 
-	<a href="our-work/trespa-international.php" class="button">View Case Study</a>
+	<a href="our-work/martins.php" class="button">View Case Study</a>
 
 </div>
 </div>
 
 
-<div class="tactile clearfix">
-<div class="grid-6 star">
-<p class="tact-dec"><strong>A tactical support plan</strong> ensures all teams are headed in the same direction. We help you launch with the support of leadership coaching and ongoing encouragement for employee buy-in.</p>
-
+<table class="ending">
+	<thead>
+	<tr>
+		<th>&nbsp;</th>
+		<th class="busy-bee">&nbsp;</th>
+		<th>&nbsp;</th>
+		<th>&nbsp;</th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+		<td></td>
+		<td class="tacs">A tactical support plan ensures all teams are headed in the same direction, no matter the media or audience. We even help you launch with the support of leadership coaching and ongoing encouragement for employee buy-in.</td>
+		<td class="chocolate-top"></td>
+		<td></td>
+		
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td class="longgg"></td>
+		<td></td>
+		
+	</tr>
+		<tr>
+		<td></td>
+		<td></td>
+		<td class="rock-solid">
+<div class="implementation">
+<img src="assets/img/rocket.svg" class="rocketz">
+<p class="games">It’s time for<br>implementation.</p>
+<hr>
+<p>From public relations, marketing tools and media plans to customer relationship marketing and digital engagement, our team provides comprehensive support services to engage your target audiences and achieve outcomes.</p>
+</div>
+</td>
+		<td></td>
+		
+	</tr>
+		<tr>
+		<td></td>
+		<td class="top-notch"></td>
+		<td class="top-notch"></td>
+		<td></td>
+		
+	</tr>
+		<tr>
+		<td>
 <div class="star-dust">
-<p><strong>The result?</strong> We drive action for your company, your brand and your goals.</p>
+<p><span class="games">The result?</span> We drive action for your company, your brand and your goals.</p>
 </div>
+</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		
+	</tr>
+	</tbody>
+</table>
+
+
+<div class="mobile-approach-two">
+<div class="support-plan">
+<p>A tactical support plan ensures all teams are headed in the same direction, no matter the media or audience. We even help you launch with the support of leadership coaching and ongoing encouragement for employee buy-in.</p>
 </div>
 
-
-
-<div class="grid-6">
-<div class="barz"></div>
 
 <div class="implementation">
-<p>Then, it’s time for<br/> <strong>implementation.</strong></p>
-<hr/>
-<p>From public relations, marketing tools and media plans to customer relationship marketing and digital engagement, our team provides comprehensive support services to engage your target audiences.</p>
+<img src="assets/img/rocket.svg" class="rocketz">
+<p class="games">It’s time for<br>implementation.</p>
+<hr>
+<p>From public relations, marketing tools and media plans to customer relationship marketing and digital engagement, our team provides comprehensive support services to engage your target audiences and achieve outcomes.</p>
 </div>
 
+
+<div class="star-dust">
+<p><span class="games">The result?</span> We drive action for your company, your brand and your goals.</p>
 </div>
+
+
+
+
+
 </div>
+
 
 <div class="work-us">
 <!--<div class="half-circ"></div>-->
-<h4>Want To Work WIth Us?<br/>Let’s Get Started!</h4>
+<h4>Want To Work WIth Us?</h4>
+<a href="<?php echo $siteURL ?>work-with-us.php">Let's Get Started</a>
 </div>
 
 

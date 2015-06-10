@@ -134,7 +134,7 @@ include('includes/header.php') // Include header file //
 <div class="team clearfix">
 
 <div id="driving-action" class="grid-12">
-        <h2 class="fade-me">Are You A Start-Up?<span>Start A Conversation</span></h2>
+        <h2 class="fade-me">Let us help you launch your new brand.<span>Start A Conversation</span></h2>
         <hr class="fade-me" />
         <p class="fade-me">We’re a full service advertising, public relations and digital agency working with clients from PA to Texas to Maine to Holland. That’s right, Holland. Clogs are quite comfy, thank you. Want to talk more?</span></p>
         
@@ -150,7 +150,7 @@ include('includes/header.php') // Include header file //
     <p class="blue-bird fade-me">We Drive Demand For</p>
     <h2>Consumer Goods</h2>
     <hr class="fade-me" />
-    <p class="work-blurb fade-me">We work with CPG manufacturers to develop smart and relevant promotions that motive consumers to put brands in carts. Offline or on, we keep your goods in high demand.</p>
+    <p class="work-blurb fade-me">We work with CPG manufacturers to develop smart and relevant promotions that motivate consumers to put brands in carts. Offline or on, we keep your goods in high demand.</p>
     <p class="view-work fade-me">View Examples of Our Work</p>
 
     <div class="circle yc-circle"><i class="fa fa-angle-double-down"></i></div>
@@ -166,7 +166,7 @@ include('includes/header.php') // Include header file //
  <p class="e-head">Kimman’s</p>
 <p class="e-sub">Branding, Messaging & Digital</p>
 <hr class="fade-me" />
-<p class="e-d">E-commerce is here to stay. Whether your product is sold exclusively online or is available at brick and mortar retail locations, choosing a full service marketing agency like us is your best option. From web design and development to SEO and social, make your product fly off the digital shelves.</p>
+<p class="e-d">E-commerce is here to stay. Whether your product is sold exclusively online or is available at brick and mortar retail locations, choosing a marketing partner who is versed in selling customers across all media platforms is required for success. From web design and development to SEO and social, make your product fly off the digital shelves when you work with Gavin.</p>
 </div>
 </div>
 
@@ -200,7 +200,7 @@ include('includes/header.php') // Include header file //
 <p class="e-head">Jukai Juice</p>
 <p class="e-sub">Branding &amp; Package Design</p>
 <hr class="fade-me" />
-<p class="e-d">Make your product reflect your brand inside & out. From logo design to packaging, we create unique designs that represent your company and speak to your target consumers.</p>
+<p class="e-d">Today's consumers scan the end caps and shelves for brands that connect with their expectations. From fresh to flirtatious to feature selling, package design helps move customers to try new products and brand extensions. Never miss an opportunity to get in the shopping cart when you work with our creative team to design your next package.</p>
 </div>
 </div>
 
@@ -214,11 +214,31 @@ include('includes/header.php') // Include header file //
 <p class="e-head">Wyndridge Crafty Cider</p>
 <p class="e-sub">Public Relations</p>
 <hr class="fade-me" />
-<p class="e-d">Creating a buzz around your brand and product is what we do best. Our public relations team is always on the lookout for new ways to promote your product, whether it is creating viral video series or pitching a feature story to the media.</p>
+<p class="e-d">Creating a buzz around your brand and product is what we do best. Our public relations team is always on the lookout for strategic opportunities, whether it's creating a viral video series, getting influential bloggers or industry media to review your product or connecting your brand with decision-makers, we build influence through effective publicity. </p>
 </div>
 </div>
 
 <div class="grid-8 fish-bowl-new fox e-arrow-left">
+</div>
+
+</div>
+
+
+<div class="two-halves clearfix">
+
+<div class="grid-8 fish-bowl-new newgrounds-rev e-arrow-right">
+</div>
+
+
+<div class="grid-4">
+<div class="small-wrap-right e-text">
+<p class="e-head">New Grounds Roasting Company</p>
+<p class="e-sub">Custom Retail Design</p>
+<hr class="fade-me" />
+<p class="e-d">We work with brands to design unique customer experiences and point of purchase displays that engage customers, create up-sell opportunities and satisfy the needs of your channel partners. Our team works with you to identify how to maximize every customer touchpoint for a memorable experience both in the store and online.
+0/255
+</p>
+</div>
 </div>
 
 </div>
@@ -255,7 +275,7 @@ include('includes/header.php') // Include header file //
 <div class="team clearfix">
 
 <div id="driving-action" class="grid-12">
-        <h2 class="fade-me">In need of Consumer Packaging?<span>Start A Conversation</span></h2>
+        <h2 class="fade-me">Work with our expert CPG team.<span>Start A Conversation</span></h2>
         <hr class="fade-me" />
         <p class="fade-me">We’re a full service advertising, public relations and digital agency working with clients from PA to Texas to Maine to Holland. That’s right, Holland. Clogs are quite comfy, thank you. Want to talk more?</span></p>
         
@@ -399,7 +419,7 @@ include('includes/header.php') // Include header file //
 
 <div class="two-halves clearfix">
 
-<div class="grid-8 fish-bowl-new e-arrow-right">
+<div class="grid-8 fish-bowl-new ffirstbook e-arrow-right">
 </div>
 
 
@@ -517,10 +537,27 @@ include('includes/header.php') // Include header file //
 
     <div class="circle yc-circle"><i class="fa fa-angle-double-down"></i></div>
 
+
+
 <div class="two-halves clearfix">
 
-<div class="grid-8 fish-bowl-new sE e-arrow-right">
+<div class="grid-8 fish-bowl-new tTV e-arrow-right">
 </div>
+
+<div class="grid-4">
+<div class="small-wrap-right e-text">
+<p class="e-head">Trespa North America</p>
+<p class="e-sub">Video Case Study</p>
+<hr class="fade-me" />
+<p class="e-d">In the building supply market visual presentation is just as important as product durability and features. Take your latest project anywhere with compelling video case studies that demonstrate the beauty of your products while featuring candid testimonials from clients.</p>
+</div>
+</div>
+
+
+</div>
+
+
+<div class="two-halves clearfix">
 
 
 <div class="grid-4">
@@ -532,21 +569,11 @@ include('includes/header.php') // Include header file //
 </div>
 </div>
 
+<div class="grid-8 fish-bowl-new sE e-arrow-left">
 </div>
 
-<div class="two-halves clearfix">
 
-<div class="grid-4">
-<div class="small-wrap-right e-text">
-<p class="e-head">Trespa North America</p>
-<p class="e-sub">Video Case Study</p>
-<hr class="fade-me" />
-<p class="e-d">In the building supply market visual presentation is just as important as product durability and features. Take your latest project anywhere with compelling video case studies that demonstrate the beauty of your products while featuring candid testimonials from clients.</p>
-</div>
-</div>
 
-<div class="grid-8 fish-bowl-new tTV e-arrow-left">
-</div>
 
 </div>
 

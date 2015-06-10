@@ -38,7 +38,7 @@
 </div>
 
 <div class="grid-4 padding-f blog-feed">
-<h4>Recent Blog Posts</h4>
+<h4>Recent Blog Post</h4>
 
 <!-- DELETE THE HTML BELOW WHEN THE SITE GOES LIVE & UNCOMMENT THE RSS PHP CODE -->
 
@@ -48,12 +48,7 @@
 <a href="#" class="border">Read More</a>
 </p>
 </div>
-<div class="clearfix">
-<p><strong><a href="#" class="title-link">Gavin Hires Awesome Magician</a></strong>
-<span>Gavin hired another cool web developer last week. Little did they know he was an awesome magician who, on a daily basis would perform card tricks...</span>
-<a href="#" class="border">Read More</a>
-</p>
-</div>
+
 
 
 
@@ -103,7 +98,7 @@
 
 <div class="second-footer">
 <div class="wrap">
-<p><span class="f-sec">328 W. Market St, York PA 17401</span><span class="delete-sec"> | </span><span class="f-sec">(717) 848-8155</span><span class="delete-sec"> | </span><span class="f-sec">&copy; <?php echo date('Y'); ?> Gavin&trade; Advertising. </span><span class="f-sec">All Rights Reserved</span><span class="delete-sec"> | </span><span class="f-sec"><a href="">Privacy Policy</a></span></p>
+<p><span class="f-sec">328 W. Market St, York PA 17401</span><span class="delete-sec"> | </span><span class="f-sec">(717) 848-8155</span><span class="delete-sec"> | </span><span class="f-sec">&copy; <?php echo date('Y'); ?> Gavin&trade; Advertising. </span><span class="f-sec">All Rights Reserved</span><span class="delete-sec"> | </span><span class="f-sec"><a href="<?php echo $siteURL; ?>privacy-policy.php">Privacy Policy</a></span></p>
 </div>
 </div>
 

@@ -12,7 +12,7 @@ include('../includes/header.php') // Include header file //
 	
 <div id="project" class="trueblue">
 <h1>TrueNorth Wellness Services</h1>
-<p>Building a new brand is complex. You need the right plan to guide a smooth branding transition.</p>
+<p>Building a new brand is complex. <br/>You need the right plan to guide a smooth branding transition.</p>
 
 
 

@@ -19,8 +19,8 @@ include('includes/header.php') // Include header file //
 		<img src="assets/img/vid-rep.jpg" class="vid-replace" alt="Gavin Advertising">
 		<video autoplay loop width="100%" height="auto">
 			<!-- .mp4 file for native playback in IE9+, Firefox, Chrome, Safari and most mobile browsers -->
-			<source src="assets/video/home-<?php echo(mt_rand(1,2)); ?>.mp4" type="video/mp4" />
-			<source src="assets/video/home-<?php echo(mt_rand(1,2)); ?>.webm" type="video/webm" />
+			<source src="assets/video/home-live.mp4" type="video/mp4" />
+			<source src="assets/video/home-live.webm" type="video/webm" />
 			<!-- flash fallback for IE6, IE7, IE8 and Opera -->
 			<object type="application/x-shockwave-flash"
 					data="assets/video/swf/flowplayer-3.2.18.swf" 
@@ -32,7 +32,7 @@ include('includes/header.php') // Include header file //
 				<!-- %2F = slash -->
 				<param name="flashVars"
 					   value="config={'playlist':['..%2Fplaceholder.png',
-									 {'url':'..%2Fhome-<?php echo(mt_rand(1,2)); ?>.mp4','autoPlay':true}]}" />
+									 {'url':'..%2Fhome-live.mp4','autoPlay':true}]}" />
 				<!-- fallback image if flash fails -->
 				<img src="assets/video/placeholder.png" width="100%" height="auto" title="No Flash found" alt="" />
 			</object>
@@ -60,8 +60,8 @@ include('includes/header.php') // Include header file //
 	</div>
 	
 	<div id="blocks" class="clearfix">
-		<a href="<?php echo $siteURL; ?>our-work/martins.php"><div id="martins"><div><hr /><p>Martin's Potato Rolls</p><span>All That and a Bag of Rolls</span></div></div></a>
-		<a href="<?php echo $siteURL; ?>our-work/trespa-international.php"><div id="trespa"><div><hr /><p>Trespa North America</p><span>Strategic Sales and Marketing</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/martins.php"><div id="martins"><div><hr /><p>Martin’s <br/>Potato Rolls</p><span>All That and a Bag of Rolls</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/trespa-international.php"><div id="trespa"><div><hr /><p>Trespa <br/>North America</p><span>Strategic Sales and Marketing</span></div></div></a>
 		<a href="<?php echo $siteURL; ?>our-work/true-north-wellness.php"><div id="truenorth"><div><hr /><p>TrueNorth Wellness Services</p><span>Branding for Health Care Consumerism</span></div></div></a>
 		<a href="<?php echo $siteURL; ?>our-work/glatfelter-insurance-group.php"><div id="gig"><div><hr /><p>Glatfelter Insurance Group</p><span>Making Complex Simple</span></div></div></a>
 		<a href="<?php echo $siteURL; ?>our-work/adams-county-national-bank.php"><div id="acnb"><div><hr /><p>ACNB Bank</p><span>More than Transactions</span></div></div></a>
@@ -79,7 +79,7 @@ include('includes/header.php') // Include header file //
 
 
 <div id="what-we-do">
-<h2>So Here's Exactly<span>What We Do</span></h2>
+<h2>So Here’s Exactly<span>What We Do</span></h2>
 <hr />
 </div>
 
@@ -90,7 +90,7 @@ include('includes/header.php') // Include header file //
 <div id="target-draw" class="draw-icon-home">
 <div id="target"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>our-work/">Market Strategy</a></h3>
+<h3><a href="<?php echo $siteURL; ?>our-work/index.php#marketing">Market Strategy</a></h3>
 <p>We investigate market opportunities for growth and expansion. From focus groups to secondary research and team-building activities, our team crafts effective messaging platforms with complete implementation plans.</p>
 </div>
 
@@ -98,7 +98,7 @@ include('includes/header.php') // Include header file //
 <div id="megaphone-draw" class="draw-icon-home">
 <div id="megaphone"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>our-work/">Public Relations</a></h3>
+<h3><a href="<?php echo $siteURL; ?>our-work/index.php#pr">Public Relations</a></h3>
 <p>We build influence. With more than $10,000,000 in media equivalency value for our clients, our team is the go-to for brands looking to build trust through strategically consistent exposure across every media channel imaginable. </p>
 </div>
 
@@ -106,7 +106,7 @@ include('includes/header.php') // Include header file //
 <div id="pen-draw" class="draw-icon-home">
 <div id="pen"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>our-work/">Branding &amp; Design</a></h3>
+<h3><a href="<?php echo $siteURL; ?>our-work/index.php#branding">Branding &amp; Design</a></h3>
 <p>In building brands from the ground up and creating an authentic brand experience, our design is more than just pretty — we craft creative that drives action.</p>
 </div>
 
@@ -114,7 +114,7 @@ include('includes/header.php') // Include header file //
 <div id="computer-draw" class="draw-icon-home">
 <div id="computer"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>our-work/">Digital</a></h3>
+<h3><a href="<?php echo $siteURL; ?>our-work/index.php#digital">Digital</a></h3>
 <p>Living digital is how we approach your brand’s online presence. We know digital media consumption is changing at rapid pace, so we design for emerging trends in media consumption.</p>
 </div>
 
@@ -134,7 +134,7 @@ include('includes/header.php') // Include header file //
 <div id="light-bulb-draw" class="draw-icon-home">
 <div id="light-bulb"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>expertise.php">Brand Building</a></h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php#brands">Brand Building</a></h3>
 <p>We build brands with a comprehensive strategy to take your idea or product to target audiences. Beyond consumers, we think about investors, competition, future influences and market value.</p>
 </div>
 
@@ -142,7 +142,7 @@ include('includes/header.php') // Include header file //
 <div id="book-draw" class="draw-icon-home">
 <div id="book"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>expertise.php">Education</a></h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php#edu">Education</a></h3>
 <p>Educational options are wide ranging. Using public relations, messaging and targeted approaches, we move your organization forward in an aggressively evolving educational environment.</p>
 </div>
 
@@ -150,7 +150,7 @@ include('includes/header.php') // Include header file //
 <div id="doctor-draw" class="draw-icon-home">
 <div id="doctor"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>expertise.php">Health Care</a></h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php#health">Health Care</a></h3>
 <p>From patients and referral sources to providers and donors, we work to engage your community, improve the health of those you serve and position your brand as a market leader.</p>
 </div>
 
@@ -158,7 +158,7 @@ include('includes/header.php') // Include header file //
 <div id="hammer-draw" class="draw-icon-home">
 <div id="hammer"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>expertise.php">Building Supply</a></h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php#building">Building Supply</a></h3>
 <p>It’s a complex supply channel, and we know all your segments by heart. Our team builds a plan for the realities of how your target audience consumes content and makes decisions, from the job site to the trade show.</p>
 </div>
 
@@ -166,7 +166,7 @@ include('includes/header.php') // Include header file //
 <div id="box-draw" class="draw-icon-home">
 <div id="box"></div>
 </div>
-<h3><a href="<?php echo $siteURL; ?>expertise.php">Consumer Packaged Goods</a></h3>
+<h3><a href="<?php echo $siteURL; ?>expertise.php#cpg">Consumer Packaged Goods</a></h3>
 <p>Get it in the cart. Whether it’s the grocery cart or the digital shopping cart, we know CPG. We build engaging digital and brick-and-mortar approaches that drive sales.</p>
 </div>
 
@@ -197,8 +197,8 @@ include('includes/header.php') // Include header file //
 
 <div class="grid-6 footer-contact">
 <div class="contact-gavin">
-<p>328 W. Market St.<br />York PA 17401</p>
-<p>O: (717) 848-8155<br />F: (717) 855-2292</p>
+<p><a href="https://www.google.com/maps?daddr=328+West+Market+Street+York+PA+17401" target="_blank">328 W. Market St.<br />York PA 17401</a></p>
+<p>O: (717) 848-8155</p>
 <p><a href="mailto:gavin@gavinadv.com">gavin@gavinadv.com</a></p>
 
 <div id="g-work">

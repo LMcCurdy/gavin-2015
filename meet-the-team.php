@@ -60,7 +60,7 @@ include('includes/header.php') // Include header file //
 		<h2 class="fade-me">So, You Think We're Awesome<span>Want To Join The Team?</span></h2>
 		<hr class="fade-me" />
 		<p class="fade-me">Potential candidates for all positions should thrive in a creative environment and possess a never settle attitude. Should not be offended by “occasional” swearing in the office and have an affinity for the color orange <span>(Pantone 166 C, to be exact).</span></p>
-		<a href="" class="button career">Careers</a>
+		<a href="http://gavinadvertising.com/alpha/orangejuice/category/careers" class="button career">Careers</a>
 		<a href="mailto:jobs@gavinadv.com?subject=I Want a job with Gavin" class="button career">Show Us Your R&Eacute;sum&Eacute;</a>
 
 

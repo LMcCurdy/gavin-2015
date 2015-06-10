@@ -299,10 +299,57 @@ $('div#video').addClass(buttonInfo);
   });
 
 
+if (window.location.href.indexOf("#branding") > -1) {
+    $('li.toggle3').click(),
+    $("div.toggle1").css("display", "none"),
+    $("div.toggle3").css("display", "block");
+
+}
+
+if (window.location.href.indexOf("#marketing") > -1) {
+    $('li.toggle2').click(),
+    $("div.toggle1").css("display", "none"),
+    $("div.toggle2").css("display", "block");
+
+}
 
 
+if (window.location.href.indexOf("#digital") > -1) {
+    $('li.toggle4').click(),
+    $("div.toggle1").css("display", "none"),
+    $("div.toggle4").css("display", "block");
+
+}
+
+if (window.location.href.indexOf("#cpg") > -1) {
+    $('#icon-wrap-e .toggle2').click(),
+    $("div.toggle1").css("display", "none"),
+    $("div.toggle2").css("display", "block");
+
+}
 
 
+if (window.location.href.indexOf("#edu") > -1) {
+    $('#icon-wrap-e .toggle3').click(),
+    $("div.toggle1").css("display", "none"),
+    $("div.toggle3").css("display", "block");
+
+}
+
+
+if (window.location.href.indexOf("#health") > -1) {
+    $('#icon-wrap-e .toggle4').click(),
+    $("div.toggle1").css("display", "none"),
+    $("div.toggle4").css("display", "block");
+
+}
+
+if (window.location.href.indexOf("#building") > -1) {
+    $('#icon-wrap-e .toggle5').click(),
+    $("div.toggle1").css("display", "none"),
+    $("div.toggle5").css("display", "block");
+
+}
 
 
 });

@@ -52,7 +52,7 @@ include('../includes/header.php') // Include header file //
 
 
 <div class="wrap">
-<h3 class="project-h3 yellowishh">We Put More Bite in Their Bark</h3>
+<h3 class="project-h3 yellowishh">We Put More Bite <br/>in Their Bark</h3>
 </div>
 
 
@@ -66,6 +66,14 @@ include('../includes/header.php') // Include header file //
 
 <p><span class="pbold">Direct mail and email</span> marketing occurred during peak car buying seasons, using custom standout creative targeting audiences shown to have characteristics of higher conversion rates. These included owners of competitive auto brands seven years and older in higher income ZIP codes.</p>
 <p><span class="pbold">Additional efforts</span> included special event sponsorships and campaign activation opportunities with regional organizations reaching profile car buyer demographics, including WTMD concerts, The Best of Baltimore with Baltimore Magazine, and the Baltimore Zoo.</p>
+
+<div class="vidoes-mini">
+<div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLL6CDLvPx4I5soVzucDU_LE71hZd52oCT" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+
+
 </div>
 </div>
 

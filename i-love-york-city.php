@@ -17,7 +17,7 @@ include('includes/header.php') // Include header file //
 		<h1 class="fade-me">All You Have To Say Is<span>#ILoveYorkCity</span></h1>
 		<hr class="fade-me" />
 		<p class="fade-me">This city has more to offer than its history.</p>  
-<p class="fade-me">Peak into Central Market and see how York businesses work together to keep the economy local, or check out the arts scene with The Pennsylvania Arts Experience, and YorkArts. Find unique gifts and fashion along Beaver Street. Catch a show at The Strand or a foul ball at a Revs game. Fill a glass with locally brewed craft beer Downtown and experience something new every First Friday. Run Against Racism or Walk a Mile in Her Shoes with the YWCA.</p> 
+<p class="fade-me">Peak into Central Market and see how York businesses work together to keep the economy local, or check out the arts scene with The Pennsylvania Arts Experience and YorkArts. Find unique gifts and fashion along Beaver Street. Catch a show at The Strand or a foul ball at a Revs game. Fill a glass with locally brewed craft beer Downtown and experience something new every First Friday. Run Against Racism or Walk a Mile in Her Shoes with the YWCA.</p> 
 <p class="fade-me">We’re not just a city. We’re a community.</p>
 
 </div>
@@ -43,6 +43,10 @@ include('includes/header.php') // Include header file //
 </div>
 
 	</div>
+
+	<p class="small-credits">Photos on this page provided by: <a href="http://www.haymanstudio.com/" target="_blank">Hayman Studios</a>, <a href="http://www.digitalephemeraphotography.com/" target="_blank">Digital Ephemera Photography</a>, <a href="http://tspweddings.com/" target="_blank">The Susquehanna Photographic</a></p>
+
+	<p class="small-credits">Video provided by: <a href="http://www.downtownyorkpa.com/" target="_blank">Downtown, Inc.</a></p>
 
 	<?php include('includes/footer.php'); ?>
 </body>

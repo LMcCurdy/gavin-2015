@@ -28,9 +28,8 @@ include('../includes/header.php') // Include header file //
     <p class="blue-bird fade-me">Take A Look At Our Work In</p>
     <h1>Public Relations</h1>
     <hr class="fade-me" />
-    <p class="work-blurb fade-me">We build influence.
-Securing more than <span class="pbold">$10,000,000</span> in media value across every media platform.</p>
-    <p class="categories fade-me"><span>Crisis Communications</span> <i class="fa fa-circle"></i> <span>Strategy</span> <i class="fa fa-circle"></i> <span>Media Coverage</span> <i class="fa fa-circle"></i> <span>Building Influence</span></p>
+    <p class="work-blurb fade-me">With more than <span class="pbold">$10M</span> in media equivalency value under our belts, we're known to build influence.</p>
+    <p class="categories fade-me"><span>Publicity</span> <i class="fa fa-circle"></i> <span>Media Relations</span> <i class="fa fa-circle"></i> <span>Strategy</span> <i class="fa fa-circle"></i> <span>Crisis Communications</span></p>
 
     <div id="blocks" class="clearfix pr-blocks">
 <a><div id="ytici"><div><hr class="fade-me" /><p>YTI Career Institute</p><span></span></div></div></a>
@@ -44,12 +43,13 @@ Securing more than <span class="pbold">$10,000,000</span> in media value across 
 <a><div id="pci"><div><hr class="fade-me" /><p>Porter and Chester Institute</p><span></span></div></div></a>
 <a><div id="ffh"><div><hr class="fade-me" /><p>Family First Health</p><span></span></div></div></a>
 <a><div id="cpc"><div><hr class="fade-me" /><p>Community Progress Council</p><span></span></div></div></a>
-<a><div id="ycrw"><div><hr class="fade-me" /><p>York County (Restaurant Week)</p><span></span></div></div></a>
+<a><div id="ycrw"><div><hr class="fade-me" /><p>Restaurant Week &amp; Health Bureau</p><span></span></div></div></a>
 <a><div id="ycds"><div><hr class="fade-me" /><p>York Country Day School</p><span></span></div></div></a>
 <a><div id="re"><div><hr class="fade-me" /><p>Richards Energy</p><span></span></div></div></a>
 <a><div id="yccf"><div><hr class="fade-me" /><p>York County Community Foundation</p><span></span></div></div></a>
 <a><div id="nhacs"><div><hr class="fade-me" /><p>New Hope Academy Charter School</p><span></span></div></div></a>
 <a><div id="attc"><div><hr class="fade-me" /><p>Arts To The Core</p><span></span></div></div></a>
+<a><div id="penn-cin"><div><hr class="fade-me" /><p>Penn Cinema</p><span></span></div></div></a>
 
 	</div>
     </div>
@@ -83,15 +83,16 @@ Securing more than <span class="pbold">$10,000,000</span> in media value across 
     	<p class="blue-bird fade-me">Take A Look At Our Work In</p>
     <h3>Branding &amp; Design</h3>
     <hr class="fade-me" />
-    <p class="categories fade-me"><span>Identity</span> <i class="fa fa-circle"></i> <span>Brand Consistency</span> <i class="fa fa-circle"></i> <span>Video &amp; Animation</span> <i class="fa fa-circle"></i> <span>Print</span> <i class="fa fa-circle"></i> <span>Design</span></p>
+    <p class="categories fade-me"><span>Research</span> <i class="fa fa-circle"></i> <span>Identity</span> <i class="fa fa-circle"></i> <span>Messaging</span> <i class="fa fa-circle"></i> <span>Market Strategy</span> <i class="fa fa-circle"></i> <span>Creative</span></p>
     <div id="blocks" class="branding-blocks clearfix">
 		<a class="fancybox" rel="group" href="../assets/img/branding/a.m.logo.jpg"><div id="advancedMetricsB"><div><hr class="fade-me" /><p>Advanced Metrics</p><span>Take A Closer Look</span></div></div></a>
-	   <a class="fancybox" rel="group" href="../assets/img/branding/w.c.logo.jpg"><div id="wecoB"><div><hr class="fade-me" /><p>WeCo</p><span>Take A Closer Look</span></div></div></a>
-       <a class="fancybox" rel="group" href="../assets/img/branding/t.n.logo.jpg"><div id="tnorthB"><div><hr class="fade-me" /><p>TrueNorth Wellness Services</p><span>Take A Closer Look</span></div></div></a>
-       <a class="fancybox" rel="group" href="../assets/img/branding/s.l.logo.jpg"><div id="stockB"><div><hr class="fade-me" /><p>Stock and Leader</p><span>Take A Closer Look</span></div></div></a>
-
-       <a class="fancybox" rel="group" href="../assets/img/branding/se.logo.jpg"><div id="seB"><div><hr class="fade-me" /><p>SE Building Materials</p><span>Take A Closer Look</span></div></div></a>
-       <a class="fancybox" rel="group" href="../assets/img/branding/k.y.w.logo.jpg"><div id="kywB"><div><hr class="fade-me" /><p>AVI Marvin</p><span>Take A Closer Look</span></div></div></a>
+	   <a class="fancybox" rel="group" href="../assets/img/design/weco-shirt.jpg"><div id="wecoB"><div><hr class="fade-me" /><p>WeCo</p><span>Take A Closer Look</span></div></div></a>
+       <a class="fancybox" rel="group" href="../assets/img/design/true-north.jpg"><div id="tnorthB"><div><hr class="fade-me" /><p>TrueNorth Wellness Services</p><span>Take A Closer Look</span></div></div></a>
+       <a class="fancybox" rel="group" href="../assets/img/design/stock-leader.jpg"><div id="stockB"><div><hr class="fade-me" /><p>Stock and Leader</p><span>Take A Closer Look</span></div></div></a>
+        <a class="fancybox" rel="group" href="../assets/img/pr/westman.jpg"><div id="wmm"><div><hr class="fade-me" /><p>West Manchester Town Center</p><span>Take A Closer Look</span></div></div></a>
+        <a class="fancybox" rel="group" href="../assets/img/design/a-services.jpg"><div id="able"><div><hr class="fade-me" /><p>Able Services</p><span>Take A Closer Look</span></div></div></a>
+       <a class="fancybox" rel="group" href="../assets/img/design/se-building.jpg"><div id="seB"><div><hr class="fade-me" /><p>SE Building Materials</p><span>Take A Closer Look</span></div></div></a>
+       <a class="fancybox" rel="group" href="../assets/img/design/kyw.jpg"><div id="kywB"><div><hr class="fade-me" /><p>AVI Marvin</p><span>Take A Closer Look</span></div></div></a>
        <a class="fancybox" rel="group" href="../assets/img/branding/u.w.logo.jpg"><div id="uwB"><div><hr class="fade-me" /><p>Underground West</p><span>Take A Closer Look</span></div></div></a>
        <a class="fancybox" rel="group" href="../assets/img/branding/j.logo.jpg"><div id="jjuiceB"><div><hr class="fade-me" /><p>Jukai Juice</p><span>Take A Closer Look</span></div></div></a>
        <a class="fancybox" rel="group" href="../assets/img/branding/cord.logo.jpg"><div id="cordB"><div><hr class="fade-me" /><p>3 Cord</p><span>Take A Closer Look</span></div></div></a>

@@ -9,7 +9,7 @@
 			<a target="_social" href="//www.pinterest.com/gavinadv/"><i class="fa fa-pinterest-p"></i></a>
 			<a target="_social" href="//instagram.com/gavinadvertising"><i class="fa fa-instagram"></i></a>
 		</div>
-		<a href="<?php echo $siteURL; ?>"><h1 class="grid-6"><em>Gavin</em><sup>&trade;</sup> Advertising</h1></a>	
+		<a href="<?php echo $siteURL; ?>"><h1 class="grid-6"><em>Gavin</em><sup>&trade;</sup> <span>Advertising</span></h1></a>	
 		<nav class="grid-6">
 
 			<ul>
