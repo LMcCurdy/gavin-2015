@@ -27,7 +27,7 @@ When you provide us with personal information to complete a form, we imply that 
 If we ask for your personal information for a secondary reason, like marketing, we will either ask you directly for your expressed consent, or provide you with an opportunity to say no. </p>
 
 <p>How do I withdraw my consent? <br/>
-If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at gavinadvertising@gmail.com.</p>
+If after you opt-in, you change your mind, you may withdraw your consent for us to contact you, for the continued collection, use or disclosure of your information, at anytime, by contacting us at <a href="mailto:gavin@gavinadv.com">gavin@gavinadv.com</a>.</p>
 
 <p>SECTION 3 - DISCLOSURE <br/>
 We may disclose your personal information if we are required by law to do so.</p>
@@ -48,7 +48,7 @@ By using this website, you represent that you are at least the age of majority i
 We reserve the right to modify this privacy policy at any time, so please review it frequently. Changes and clarifications will take effect immediately upon their posting on the website. If we make material changes to this policy, we will notify you here that it has been updated, so that you are aware of what information we collect, how we use it, and under what circumstances, if any, we use and/or disclose it. If our store is acquired or merged with another company, your information may be transferred to the new owners so that we may continue to sell products to you. </p>
 
 <p>QUESTIONS AND CONTACT INFORMATION <br/>
-If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at gavinadvertising@gmail.com.</p>
+If you would like to: access, correct, amend or delete any personal information we have about you, register a complaint, or simply want more information contact our Privacy Compliance Officer at <a href="mailto:gavin@gavinadv.com">gavin@gavinadv.com</a>.</p>
 </div>
 
 

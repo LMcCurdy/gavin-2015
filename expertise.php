@@ -236,7 +236,6 @@ include('includes/header.php') // Include header file //
 <p class="e-sub">Custom Retail Design</p>
 <hr class="fade-me" />
 <p class="e-d">We work with brands to design unique customer experiences and point of purchase displays that engage customers, create up-sell opportunities and satisfy the needs of your channel partners. Our team works with you to identify how to maximize every customer touchpoint for a memorable experience both in the store and online.
-0/255
 </p>
 </div>
 </div>

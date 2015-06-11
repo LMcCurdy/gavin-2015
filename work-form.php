@@ -11,8 +11,8 @@ $besttime = $_POST['besttime'];
 
 	$subject = "Work With Gavin - " . stripslashes($_POST['firstname']) ."";
 	
-	$to = "lmccurdy@gavinadv.com"; 
-	$cc = 'mlee@gavinadv.com';
+	$to = "marnold@gavinadv.com"; 
+	$cc = 'info@gavinadv.com';
 
 	$headers = "From: " . strip_tags($_POST['firstname']). "<" .strip_tags($_POST['email']). ">\r\n";
 	$headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";

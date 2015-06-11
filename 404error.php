@@ -1,8 +1,8 @@
 <?php
 // Define variables for SEO
-$pageTitle = 'Thank You From Gavin Advertising'; // Title of page //
+$pageTitle = 'Whoops Something Went Wrong'; // Title of page //
 $pageDescription = ''; // Title of page //
-$pageCanonical = 'http://www.gavinadvertising.com/thank-you.php';
+$pageCanonical = 'http://www.gavinadvertising.com/404error.php';
 // If we don't want the search engines to see our website just yet
 //$pageRobots = 'noindex,nofollow';
 include('includes/header.php') // Include header file //

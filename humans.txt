@@ -1,0 +1,20 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Developer: George Migash
+    Contact: gmigash [at] gavinadv.com
+    Twitter: @gavinadv
+    From: York, Penna., USA
+
+# THANKS
+
+    Caffeine and Alcohol
+
+# TECH
+
+    Last update: 26/03/2015
+    Language: English
+    Doctype: HTML5
+    Tools: WordPress, some freelancer ... re-coding in progress

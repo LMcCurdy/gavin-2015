@@ -1,7 +1,7 @@
 
-<?php $siteURL = "http://www.gavinadvertising.com/alpha/"; ?>
+<?php $siteURL = "http://www.gavinadvertising.com/"; ?>
 <?php 
-	require_once ($_SERVER['DOCUMENT_ROOT'].'/alpha/includes/Mobile_Detect.php');
+	require_once ($_SERVER['DOCUMENT_ROOT'].'/includes/Mobile_Detect.php');
 	$detect = new Mobile_Detect;
 	$deviceType = ($detect->isMobile() ? ($detect->isTablet() ? 'tablet' : 'phone') : 'computer');
 	$scriptVersion = $detect->getScriptVersion();

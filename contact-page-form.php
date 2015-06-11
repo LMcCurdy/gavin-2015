@@ -10,7 +10,7 @@ $comments = $_POST['comments'];
 
 	$subject = "Gavin Advertising Contact Page - " . stripslashes($_POST['name']) ."";
 	
-	$to = "lmccurdy@gavinadv.com"; 
+	$to = "gavin@gavinadv.com"; 
 	/*$cc = 'tjohnston@gavinadv.com';*/
 
 	$headers = "From: " . strip_tags($_POST['name']). "<" .strip_tags($_POST['email']). ">\r\n";

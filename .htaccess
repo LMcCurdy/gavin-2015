@@ -24,3 +24,13 @@ ErrorDocument 403 "Access Forbidden"
 RewriteCond %{HTTP_USER_AGENT} libwww-perl.*
 RewriteRule .* – [F,L]
 </IfModule>
+
+
+
+Redirect 301 /in-the-hall/you-know-youre-in-public-relations-when/ http://gavinadvertising.com/orangejuice/you-know-youre-in-public-relations-when
+Redirect 301 /contact http://gavinadvertising.com/contact-us.php
+Redirect 301 /g-peeps http://gavinadvertising.com/meet-the-team.php
+Redirect 301 /public-relations http://www.gavinadvertising.com/our-work/index.php#pr
+Redirect 301 /about http://gavinadvertising.com/about-gavin-advertising.php
+Redirect 301 /jobs http://gavinadvertising.com/orangejuice/category/careers
+

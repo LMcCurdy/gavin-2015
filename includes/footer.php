@@ -38,7 +38,7 @@
 <div class="grid-4 padding-f blog-feed">
 <h4>Recent Blog Post</h4>
 
-<!-- DELETE THE HTML BELOW WHEN THE SITE GOES LIVE & UNCOMMENT THE RSS PHP CODE -->
+<!-- DELETE THE HTML BELOW WHEN THE SITE GOES LIVE & UNCOMMENT THE RSS PHP CODE 
 <div class="clearfix">
 <p><strong><a href="#" class="title-link">Microsoft Does Cool Things To W10</a></strong>
 <span>With the official announcement of Windows 10 and a bunch of new products Microsoft is still worse than Apple. Last year Apple made...</span>
@@ -46,14 +46,14 @@
 </p>
 </div>
 
+-->
 
 
 
 
-<!-- BLOG POST CAN'T BE PULLED UNTIL THE SITE IS LIVE!! 
 <?php
 	$rss = new DOMDocument();
-	$rss->load('http://www.gavinadvertising.com/in-the-hall/feed/');
+	$rss->load('http://www.gavinadvertising.com/orangejuice/feed/');
 	$feed = array();
 	foreach ($rss->getElementsByTagName('item') as $node) {
 		$item = array ( 
@@ -63,16 +63,15 @@
 			);
 		array_push($feed, $item);
 	}
-	$limit = 5;
+	$limit = 1;
 	for($x=0;$x<$limit;$x++) {
 		$title = str_replace(' & ', ' &amp; ', $feed[$x]['title']);
 		$link = $feed[$x]['link'];
 		$description = $feed[$x]['desc'];
-		echo '<p><strong><a href="'.$link.'" class="title-link">'.$title.'</a></strong>';
-		echo '<span>'.$description.'</span>';
-		echo '<a href="'.$link.'" title="'.$title.'">Read More</a></p>';
+		echo '<div class="clearfix"><p><strong><a href="'.$link.'" class="title-link">'.$title.'</a></strong>';
+		echo '<a href="'.$link.'" title="'.$title.'" class="border">Read More</a></p></div>';
 	}
-?> -->
+?> 
 </div>
 
 <div class="grid-4 padding-f social">
@@ -135,6 +134,7 @@ $("#contactForm").validate();
 });
 </script>
 
+<!--
 <script type='text/javascript'>
 (function (d, t) {
   var bh = d.createElement(t), s = d.getElementsByTagName(t)[0];
@@ -143,6 +143,7 @@ $("#contactForm").validate();
   s.parentNode.insertBefore(bh, s);
   })(document, 'script');
 </script>
+-->
 
 <script type="text/javascript">
 	$(document).ready(function() {
