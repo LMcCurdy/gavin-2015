@@ -13,7 +13,7 @@ include('includes/header.php') // Include header file //
 <div id="introduction" class="intro-no">
 <h1><span>Uh Oh!</span>Something Must Be Broken</h1>
 <hr />
-<p class="fade-me">The page you are looking for no longer exist! If this page was important<br/>please contact us immediately!</p>
+<p class="fade-me">The page you are looking for no longer exists! If this page was important<br/>please contact us immediately!</p>
 </div>
 
 

@@ -40,7 +40,7 @@ include('../includes/header.php') // Include header file //
 
 <div class="grid-6">
 <div class="small-wrap-right">
-<p>Working with Glatfelter, we conquered complex industry topics and selling points to develop trade specific campaigns that differentiated them from the competition. Through voice-of-consumer research, we were able to design and develop user-friendly, SEO ready websites. With strong, clear messages and new visuals to reinforce each of its insurance program’s divisional brands, Glatfelter was ready to take on the industry.</p>
+<p>Working with Glatfelter, we conquered complex industry topics and selling points to develop trade-specific campaigns that differentiated them from the competition. Through voice-of-consumer research, we were able to design and develop user-friendly, SEO ready websites. With strong, clear messages and new visuals to reinforce each of its insurance program’s divisional brands, Glatfelter was ready to take on the industry.</p>
 </div>
 </div>
 
@@ -82,7 +82,7 @@ include('../includes/header.php') // Include header file //
 <div class="wrap bottom-con clearfix">
 
 <div class="grid-6">
-<p>Trespa North America is the North America division of Trespa International B.V., a leading innovator in the field of architectural materials, recognized internationally as the premier developer of high quality panels for exterior cladding, decorative facades, and interior surfaces.</p>
+<p>Glatfelter Insurance Group was established in 1951 on the principals of trust, service and value.   Today. Glatfelter Insurance Group is one of the largest privately owned insurance brokers in the United States with more than 500 associates serving 30,000 clients.</p>
 </div>
 
 <div class="grid-6 center">

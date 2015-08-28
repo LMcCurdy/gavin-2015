@@ -79,7 +79,7 @@ include('../includes/header.php') // Include header file //
 <div class="wrap bottom-con clearfix">
 
 <div class="grid-6">
-<p>Trespa North America is the North America division of Trespa International B.V., a leading innovator in the field of architectural materials, recognized internationally as the premier developer of high quality panels for exterior cladding, decorative facades, and interior surfaces.</p>
+<p>Trespa North America is the North America division of Trespa International B.V., a leading innovator in the field of architectural materials, recognized internationally as the premier developer of high-quality panels for exterior cladding, decorative facades, and interior surfaces.</p>
 </div>
 
 <div class="grid-6 center">

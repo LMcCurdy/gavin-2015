@@ -11,14 +11,14 @@ include('includes/header.php') // Include header file //
 	<?php include('includes/nav.php'); ?>
 	
 <div id="introduction" class="intro-no">
-<h1><span>Awesome, You Want To Work With Us</span>We’re Excited!</h1>
+<h1><span>Awesome, You Want To Speak To Us</span>We’re Excited!</h1>
 <hr />
 <p class="fade-me">Help us help you and tell us a little more info.</p>
 </div>
 <form action="work-form.php" class="work" id="contactForm" method="post" name="contact_us"> 
 <div class="container">
     <p class="blue-bird fade-me">First Things First</p>
-    <h2>Pick Your Project</h2>
+    <h2>What Do You Need?</h2>
 </div>
 
 

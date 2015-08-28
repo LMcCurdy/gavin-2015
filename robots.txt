@@ -1,27 +1,20 @@
 User-agent: *
-# Demo Pages
-Disallow: /alpha/
-Disallow: /beta/
-Disallow: /prestashop/
-Disallow: /wordpress/
 # Hosted Sites
 Disallow: /advancedmetrics.net/
-Disallow: /avimarvin.com/
 Disallow: /finaldraught.info/
-Disallow: /kimmans_ps/
-Disallow: /kimmans.com/
+Disallow: /firstcapitolra.com/
 Disallow: /keystruct_blog/
 Disallow: /keystruct_wp/
-Disallow: /leboskincare.com/
-Disallow: /lebodermapen.com/
-Disallow: /lebodisappearingink.com/
-Disallow: /leboskinrevitalization.com/
-Disallow: /phpMyAdmin/
+Disallow: /kunzler.com/
+Disallow: /mockups/
 Disallow: /sebuilding.com/
 Disallow: /undergroundwestchef.com/
-Disallow: /wecoyorkpa.com/
+# Demo Pages
+Disallow: /beta/
 # Tools
-Disallow: /humans.txt
-Disallow: /php_error.log
 Disallow: /cgi-bin/
-Disallow: /wp-db-tool/
+Disallow: /humans.txt
+Disallow: /min/
+Disallow: /error_log
+Disallow: /php.ini
+Disallow: /phpinfo.php

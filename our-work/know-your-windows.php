@@ -12,7 +12,7 @@ include('../includes/header.php') // Include header file //
 	
 <div id="project" class="gren">
 <h1>AVI Atlanta, GA</h1>
-<p>Establishing someone as an expert when they already are the expert, isn’t all that complicated. But creating a brand and building awareness behind that fact is what we do best. </p>
+<p>Establishing a company as an expert when it already is an expert isn’t all that complicated. But creating a brand and building awareness behind that fact is what we do best. </p>
 
 
 
@@ -30,7 +30,7 @@ include('../includes/header.php') // Include header file //
 	<ul>
 <li>Marketing Plan/Campaign Development</li>
 <li>Video Series Production</li>
-<li>Pay Per Click Advertising</li>
+<li>Pay-Per-Click Advertising</li>
 <li>Data and Consumer Analysis</li>
 <li>Social Media</li>
 	</ul>
@@ -59,7 +59,7 @@ include('../includes/header.php') // Include header file //
 
 <div class="grid-6 about-the-project">
 <div class="small-wrap-left">
-<p><span class="pbold">We developed</span> a digital marketing campaign designed to include a landing page built for conversion, a video series catered to consumer education and product knowledge, and pay per click advertising to maximize reach and awareness. We collaborated with the experts behind KnowYourWindows.com to deliver a campaign that continues to drive brand awareness and generate leads. 
+<p><span class="pbold">We developed</span> a digital marketing campaign designed to include a landing page built for conversion, a video series catered to consumer education and product knowledge, and pay-per-click advertising to maximize reach and awareness. We collaborated with the experts behind KnowYourWindows.com to deliver a campaign that continues to drive brand awareness and generate leads. 
 </p>
 
 <p><span class="pbold">The KnowYourWindows.com </span>landing page became the second largest traffic driver to AVI Marvin’s website. 
@@ -68,7 +68,7 @@ The brand became successfully positioned as consumer advocates, craftsmen and tr
 </p>
 
 <p><span class="pbold">Analyzing the campaign’s </span> historic performance in Google Analytics and Adwords month over month and year over year, keeps the campaign fresh for unique users as well as repeat visitors through ongoing SEO efforts, A/B testing ads/adgroups, and constantly reevaluating lead generation opportunities with consumer, value-added incentives. 
-What is proven to work best today will not always be the best practice tomorrow, because user behavior is ever dynamic. Which is why our approach to digital marketing campaigns strives for continuous improvement. Repeating the process of implementation and analysis is key to ongoing success. 
+What is proven to work best today will not always be the best practice tomorrow, because user behavior is ever dynamic. That's why our approach to digital marketing campaigns strives for continuous improvement. Repeating the process of implementation and analysis is key to ongoing success. 
 </p>
 </div>
 </div>

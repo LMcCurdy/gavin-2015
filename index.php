@@ -69,6 +69,9 @@ include('includes/header.php') // Include header file //
 		<a href="<?php echo $siteURL; ?>our-work/mini-of-baltimore.php"><div id="mini"><div><hr /><p>MINI of Baltimore</p><span>More Bite in Their Bark</span></div></div></a>
 		<a href="<?php echo $siteURL; ?>our-work/york-technical-institute.php"><div id="yti"><div><hr /><p>YTI Career Institute</p><span>Too Many Hits to Shake a Diploma At</span></div></div></a>
 		<a href="<?php echo $siteURL; ?>our-work/peoplesbank.php"><div id="peoplesbank"><div><hr /><p>PeoplesBank</p><span>Paying it Forward</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/lebo-skin-care.php"><div id="lebo-skin"><div><hr /><p>Lèbo Skin Care Center</p><span>Love your skin with Lèbo</span></div></div></a>
+		<a href="<?php echo $siteURL; ?>our-work/york-county-economic-alliance.php"><div id="ycea-case"><div><hr /><p>YCEA</p><span>York County Economic Alliance</span></div></div></a>
+
 	</div>
 
 

@@ -25,7 +25,7 @@ include('includes/header.php') // Include header file //
 
 <div class="grid-6">
 <div class="small-wrap-right">
-<p class="piggly-wiggly">In 1901, 328 W. Market St was the H. Westley Furniture Company, in 1953 it merged into the John A. Waltersdorf Building. In the 90's it was a sewing machine repair shop and an antique store. Today,
+<p class="piggly-wiggly">In 1901, 328 W. Market St. was the H. Westley Furniture Company. In 1953, it merged into the John A. Waltersdorf Building. In the '90s it was a sewing machine repair shop and an antique store. Today,
 <span>it’s home.</span></p>
 
 
@@ -68,7 +68,7 @@ include('includes/header.php') // Include header file //
 
 
 <div class="all-over">
-<p class="fade-me"><span>We work with clients all over the world.</span><br />From Maine to Georgia, and as far away as Holland you can find our clients, but York is home base for us. We intend to put this town on the creativity map, with new thinking and a team that attracts the best talent and game-changing brands.</p><p class="fade-me">
+<p class="fade-me"><span>We work with clients all over the world.</span><br />You can find our clients from Maine to Georgia and as far away as Holland, but York is home base for us. We intend to put this town on the creativity map, with new thinking and a team that attracts the best talent and game-changing brands.</p><p class="fade-me">
 Little city. Big idea people. Main Street is going to give Madison Avenue a
 run for its money.</p>
 </div>

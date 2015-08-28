@@ -77,7 +77,7 @@ include('../includes/header.php') // Include header file //
 <div class="wrap bottom-con clearfix">
 
 <div class="grid-6">
-<p>ACNB Bank is a full-service hometown bank serving South Central Pennsylvania for over 150 years.  ACNB Bank serves business and consumer banking needs. with more than 23 branch locations throughout the region.</p>
+<p>ACNB Bank is a full-service hometown bank serving southcentral Pennsylvania for over 150 years.  ACNB Bank serves business and consumer banking needs with more than 23 branch locations throughout the region.</p>
 </div>
 
 <div class="grid-6 center">

@@ -1,4 +1,3 @@
-
 <?php $siteURL = "http://www.gavinadvertising.com/"; ?>
 <?php 
 	require_once ($_SERVER['DOCUMENT_ROOT'].'/includes/Mobile_Detect.php');
@@ -12,37 +11,26 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title><?php echo $pageTitle; ?></title>
+	<meta name="description" content="<?php echo $pageDescription; ?>" />
+	<?php
+	if($pageCanonical)
+		echo '<link rel="canonical" href="'.$pageCanonical.'">';
+	?>
+	<meta name="viewport" content="width=device-width" />
 
-<title><?php echo $pageTitle; ?></title>
-        <meta name="description" content="<?php echo $pageDescription; ?>">
-        <?php
-        // If canonical URL is specified, include canonical link element
-		if($pageCanonical)
-		{
-		echo '<link rel="canonical" href="' . $pageCanonical . '">';
-		}
-		// If meta robots content is specified, include robots meta tag
-		if($pageRobots)
-		{
-		echo '<meta name="robots" content="' . $pageRobots . '">';
-		}
-		?>
+<?php
+// 	<link rel="stylesheet" href="/assets/css/normalize.css" />
+// 	<link rel="stylesheet" href="/assets/css/style.css">
+?>
 
 
-<meta name="viewport" content="width=device-width">
-
-<!-- Important Owl stylesheet -->
-<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/owl/owl.carousel.css">
- 
-<!-- Default Theme -->
-<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/owl/owl.theme.css">
-
-<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/css/normalize.css">
-<!-- <link rel="stylesheet" href="assets/css/rwdgrid.css"> -->
-<link rel="stylesheet" href="<?php echo $siteURL; ?>assets/css/style.css">
-
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
-
+	<link type="text/css" rel="stylesheet" href="/min/b=assets/css&amp;f=normalize.css" />
+	<link type="text/css" rel="stylesheet" href="/assets/owl/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="/assets/owl/owl.theme.css" />
+	<link type="text/css" rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+	<!-- <link type="text/css" rel="stylesheet" href="/min/b=assets/css&amp;f=style.css" /> -->
+	<link rel="stylesheet" href="/assets/css/style.css">
 </head>

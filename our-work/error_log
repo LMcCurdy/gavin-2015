@@ -1,0 +1,24 @@
+[20-Jul-2015 16:51:46 UTC] PHP Warning:  DOMDocument::load(http://www.gavinadvertising.com/orangejuice/feed): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/gavinadmin/public_html/includes/footer.php on line 41
+[20-Jul-2015 16:51:46 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;http://www.gavinadvertising.com/orangejuice/feed&quot; in /home/gavinadmin/public_html/includes/footer.php on line 41
+[20-Jul-2015 16:51:46 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 53
+[20-Jul-2015 16:51:46 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 54
+[20-Jul-2015 16:51:46 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 55
+[26-Jul-2015 17:12:52 UTC] PHP Warning:  DOMDocument::load(http://www.gavinadvertising.com/orangejuice/feed): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/gavinadmin/public_html/includes/footer.php on line 41
+[26-Jul-2015 17:12:52 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;http://www.gavinadvertising.com/orangejuice/feed&quot; in /home/gavinadmin/public_html/includes/footer.php on line 41
+[26-Jul-2015 17:12:52 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 53
+[26-Jul-2015 17:12:52 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 54
+[26-Jul-2015 17:12:52 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 55
+[29-Jul-2015 17:57:55 UTC] PHP Warning:  DOMDocument::load(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/gavinadmin/public_html/includes/footer.php on line 41
+[29-Jul-2015 17:57:55 UTC] PHP Warning:  DOMDocument::load(http://www.gavinadvertising.com/orangejuice/feed): failed to open stream: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/gavinadmin/public_html/includes/footer.php on line 41
+[29-Jul-2015 17:57:55 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;http://www.gavinadvertising.com/orangejuice/feed&quot; in /home/gavinadmin/public_html/includes/footer.php on line 41
+[29-Jul-2015 17:57:55 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 53
+[29-Jul-2015 17:57:55 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 54
+[29-Jul-2015 17:57:55 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 55
+[03-Aug-2015 20:34:36 UTC] PHP Warning:  DOMDocument::load(http://www.gavinadvertising.com/orangejuice/feed): failed to open stream: HTTP request failed! HTTP/1.1 500 Internal Server Error
+ in /home/gavinadmin/public_html/includes/footer.php on line 41
+[03-Aug-2015 20:34:36 UTC] PHP Warning:  DOMDocument::load(): I/O warning : failed to load external entity &quot;http://www.gavinadvertising.com/orangejuice/feed&quot; in /home/gavinadmin/public_html/includes/footer.php on line 41
+[03-Aug-2015 20:34:36 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 53
+[03-Aug-2015 20:34:36 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 54
+[03-Aug-2015 20:34:36 UTC] PHP Notice:  Undefined offset: 0 in /home/gavinadmin/public_html/includes/footer.php on line 55

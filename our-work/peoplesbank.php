@@ -40,7 +40,7 @@ include('../includes/header.php') // Include header file //
 
 <div class="grid-6">
 <div class="small-wrap-right">
-<p>Our team developed a social media marketing campaign backed by smart PR tactics to create a viral video series that engaged consumers online and off, raising brand awareness while celebrating PeoplesBank’s 150-year heritage. Our team helped PeoplesBank create Pay $150 Forward -- an opportunity for everyday people to make a difference with $150 in 15 minutes or less.</p>
+<p>Our team developed a social media marketing campaign backed by smart PR tactics to create a viral video series that engaged consumers online and off, raising brand awareness while celebrating PeoplesBank’s 150-year heritage. Our team helped PeoplesBank create Pay $150 Forward — an opportunity for everyday people to make a difference with $150 in 15 minutes or less.</p>
 </div>
 </div>
 
@@ -61,12 +61,12 @@ include('../includes/header.php') // Include header file //
 <div class="small-wrap-left">
 	
 
-<p><span class="pbold">Armed with a video camera,</span> balloons and the cash, Gavin staff surprised strangers at key locations around town. Each encounter was edited into a 3- to 4-minute video and shared on the bank’s Facebook page and YouTube channel.</p>
+<p><span class="pbold">Armed with a video camera,</span> balloons and the cash, Gavin staff surprised strangers at key locations around town. Each encounter was edited into a 3 - to 4-minute video and shared on the bank’s Facebook page and YouTube channel.</p>
 
 <p><span class="pbold">Harnessing the power</span> of traditional and new media, the 10 Pay $150 Forward videos were viewed online more than 2,400 times. Thanks to the fresh, viral content created by Gavin, PeoplesBank saw its Facebook Likes nearly triple over the two-month campaign.</p>
 <p><span class="pbold">The Pay $150 Forward</span> social media marketing was supported by traditional public relations outreach. The PR pros at Gavin targeted local and regional media to tell the story of 150 years of service from PeoplesBank. The results speak for themselves: 22 media hits that yielded nearly 2 million total impressions. It’s the kind of publicity that money can’t buy.</p>
 
-<p><span class="pbold">Pay $150 Forward</span> earned us a Keystone Award from the Central PA chapter of the Public Relations Society of America – the highest honor awarded by the organization.But the best praise we received was from the client. Citing overwhelming positive feedback from customers, staff and the general public, PeoplesBank enlisted Gavin to create three additional holiday-themed Pay $150 Forward videos in December 2014.</p>
+<p><span class="pbold">Pay $150 Forward</span> earned us a Keystone Award from the Central PA chapter of the Public Relations Society of America — the highest honor awarded by the organization. But the best praise we received was from the client. Citing overwhelming positive feedback from customers, staff and the general public, PeoplesBank enlisted Gavin to create three additional holiday-themed Pay $150 Forward videos in December 2014.</p>
 
 </div>
 </div>

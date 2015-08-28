@@ -17,7 +17,7 @@ include('includes/header.php') // Include header file //
 		<h1 class="fade-me">All You Have To Say Is<span>#ILoveYorkCity</span></h1>
 		<hr class="fade-me" />
 		<p class="fade-me">This city has more to offer than its history.</p>  
-<p class="fade-me">Peak into Central Market and see how York businesses work together to keep the economy local, or check out the arts scene with The Pennsylvania Arts Experience and YorkArts. Find unique gifts and fashion along Beaver Street. Catch a show at The Strand or a foul ball at a Revs game. Fill a glass with locally brewed craft beer Downtown and experience something new every First Friday. Run Against Racism or Walk a Mile in Her Shoes with the YWCA.</p> 
+<p class="fade-me">Peek into Central Market and see how York businesses work together to keep the economy local, or check out the arts scene with The Pennsylvania Arts Experience and YorkArts. Find unique gifts and fashion along Beaver Street. Catch a show at The Strand or a foul ball at a Revs game. Fill a glass with locally brewed craft beer downtown and experience something new every First Friday. Run Against Racism or Walk a Mile in Her Shoes with the YWCA.</p> 
 <p class="fade-me">We’re not just a city. We’re a community.</p>
 
 </div>
